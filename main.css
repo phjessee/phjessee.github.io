@@ -27,8 +27,8 @@ nav {
 header img{
    float: right;
    height: 200px;
-   border-radius: 4px;
    width: 200px;
+   border-radius: 4px;
    box-shadow: 0 4px 8px 0 black;
 }
 
