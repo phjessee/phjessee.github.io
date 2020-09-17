@@ -1,0 +1,21 @@
+@media only screen and (min-width: 440px) {
+    h1 {
+        font-size: 2.5rem;
+        font-family: 'Racing Sans One', cursive;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    header,
+    footer {
+        border-radius: 10px
+    }
+
+    header img {
+        border-radius: 4px;
+        box-shadow: 0 4px 8px 0 black;
+        float: right;
+    }
+}
