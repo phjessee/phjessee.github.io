@@ -1,114 +1,117 @@
+main {
+    font-family: "PT Serif";
+}
+
+.section {
+    border: 2px solid #dadada;
+    border-radius: 12px;
+
+}
+
+section div {
+    background-color: rgb(106, 160, 189);
+    text-align: center;
+    color: #ffffff;
+    padding: .5rem;
+    border-radius: 10px 10px 0 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(106, 160, 189);
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    max-width: 1015px;
+}
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+    font-family: "Roboto";
+    margin: 10px;
+}
+
+a {
+    color: #3b43b1;
+    font-size: 16px;
+}
+
+h1 {
+    margin: 5px;
+}
+
+h5 {
+    margin: 10px;
+    font-size: 34px;
+}
+
+.sub-header {
+    font-size: 24px;
+}
+
+/*############## Media Quiery ################*/
+/* Mobile */
+
+
+@media (min-width: 0px) {
+
     main {
-        display: grid;
-        grid-gap: 25px;
-        margin: 1.25rem auto;
-        max-width: 1024px;
-        font-family: "PT Serif";
-        grid-template-columns: 1fr 1fr 1fr;
-        height: 250px;
-
-    }
-
-    .section-1 {
-        grid-column: 1 / 2;
-        width: auto;
-        border: 2px solid #dadada;
-        border-radius: 12px;
-    }
-
-    .section-2 {
-        grid-column: 2 / 3;
-        border: 2px solid #dadada;
-        border-radius: 12px;
-
-    }
-
-    .section-3 {
-        grid-column: 3 / 4;
-        border: 2px solid #dadada;
-        border-radius: 12px;
-    }
-
-    section div {
-        background-color: rgb(106, 160, 189);
-        text-align: center;
-        font-size: 34px;
-        color: #ffffff;
-        padding: .5rem;
-        border-radius: 10px 10px 0 0;
-    }
-
-    header {
-        text-align: center;
-        background-color: rgb(106, 160, 189);
-        max-width: 830px;
         margin: auto;
-        padding: 5px;
-        border-radius: 10px;
-        color: white;
     }
 
     img {
-        height: 500px;
-        width: 250px;
-        margin-top: 10px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin-left: 14px;
+        width: 80%;
+        margin: 10%;
     }
 
-    p {
-        font-family: "Roboto";
-        margin: 10px;
+    .section {
+        margin-top: .5rem;
+    }
+}
+
+@media (min-width: 600px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        grid-gap: 1rem;
     }
 
-    a {
-        color: #3b43b1;
-        font-size: 16px;
+    img {
+        width: 80%;
+        margin: 10%;
     }
 
-    h1 {
-        margin: 5px;
+    .section {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 920px) {
+
+    main {
+        display: grid;
+        margin: auto;
+        max-width: 1024px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: .5rem;
     }
 
-    h5 {
-        margin: 10px;
+    img {
+        width: 80%;
+        margin: 10%;
     }
 
-    .sub-header {
-        font-size: 24px;
+    .section {
+        margin-top: 1rem;
     }
 
-    hr {
-        margin: 20px 0 0 0;
+    section div {
+        font-size: 44px
     }
-
-
-
-    /*############## Media Quiery ################*/
-    /* Mobile */
-
-    @media screen and (max-width: 400px) {
-        main {
-            margin: 1.25rem auto;
-            max-width: 840px;
-        }
-
-        .section-1 {
-            display: block;
-            border: 2px solid #dadada;
-            border-radius: 12px;
-        }
-
-        .section-2 {
-            display: block;
-            border: 2px solid #dadada;
-            border-radius: 12px;
-        }
-
-        .section-3 {
-            display: block;
-            border: 2px solid #dadada;
-            border-radius: 12px;
-        }
-
-    }
+}
