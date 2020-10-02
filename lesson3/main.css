@@ -1,0 +1,56 @@
+nav {
+    background-color: #666A86;
+    padding: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    padding-top: 25px;
+}
+
+body {
+    margin: auto;
+}
+
+/*########### Media Query ########*/
+
+@media only screen and (min-width: 0px) {
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        padding: 0.6rem;
+    }
+
+    .pallet {
+        width: 100%;
+        height: 15em;
+    }
+
+}
+
+@media only screen and (min-width: 572px) {
+    body {
+        max-width: 1024px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .pallet {
+        width: auto;
+    }
+
+}
