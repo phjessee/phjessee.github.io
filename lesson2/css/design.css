@@ -1,129 +1,42 @@
 main {
     font-family: "PT Serif";
-}
-
-.section {
-    border: 2px solid #dadada;
-    border-radius: 12px;
-
-}
-
-section div {
-    background-color: rgb(106, 160, 189);
-    text-align: center;
-    color: #ffffff;
-    padding: .5rem;
-    border-radius: 10px 10px 0 0;
-}
-
-header {
-    text-align: center;
-    background-color: rgb(106, 160, 189);
     margin: auto;
-    padding: 5px;
-    border-radius: 10px;
-    color: white;
-    max-width: 1015px;
+    max-width: 1040px;
 }
 
-img {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+section {
+    border: 2px solid #dadada;
+    border-radius: 10px;
 }
 
 p {
     font-family: "Roboto";
-    margin: 10px;
+    padding: 0 2rem;
 }
 
-a {
-    color: #3b43b1;
-    font-size: 16px;
+header {
+    text-align: center;
+    background-color: rgb(0, 100, 0);
+    margin: auto;
+    padding: 5px;
+    color: white;
+    max-width: 1020px;
 }
 
-h1 {
-    margin: 5px;
-}
-
-h5 {
-    margin: 10px;
-    font-size: 34px;
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    border: 2px solid #dadada;
 }
 
 .sub-header {
-    font-size: 24px;
+    background-color: rgb(0, 100, 0);
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
 }
-
-/*############## Media Quiery ################*/
-/* Mobile */
-
-
-@media (min-width: 0px) {
-
-    main {
-        margin: auto;
-    }
-
-    img {
-        width: 80%;
-        margin: 10%;
-    }
-
-    .section {
-        margin-top: .5rem;
-    }
-}
-
-@media (min-width: 600px) {
-
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin: auto;
-        grid-gap: 1rem;
-    }
-
-    img {
-        width: 80%;
-        margin: 10%;
-    }
-
-    .section {
-        margin-top: 1rem;
-    }
-    h5 {
-        font-size: 24px;
-    }
-    .sub-header {
-        font-size: 16px;
-    }
-}
-
-@media (min-width: 920px) {
-
-    main {
-        display: grid;
-        margin: auto;
-        max-width: 1024px;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: .5rem;
-    }
-
-    img {
-        width: 80%;
-        margin: 10%;
-    }
-
-    .section {
-        margin-top: 1rem;
-    }
-
-    section div {
-        font-size: 44px
-    }
-    h5 {
-        font-size: 34px;
-    }
-    .sub-header {
-        font-size: 24px;
-    }
+a {
+    color: white;
 }
