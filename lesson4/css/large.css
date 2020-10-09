@@ -5,16 +5,13 @@
         background-color: #dadada;
     }
 
-    nav button {
+    header button {
         display: none;
     }
 
-    nav ul.hide {
-        display: flex;
-        justify-content: center;
-    }
-
     nav ul {
+        display: flex;
+        flex-direction: row;
         margin-left: 3%;
     }
 
