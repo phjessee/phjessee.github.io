@@ -75,7 +75,7 @@ nav ul li a {
 }
 
 nav ul li.selected a {
-    font-weight: 1000;
+    font-weight: bolder;
 }
 
 nav ul li a:hover {
