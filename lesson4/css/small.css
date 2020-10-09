@@ -1,0 +1,127 @@
+header {
+    background-color: #666A86;
+    display: flex;
+    align-content: center;
+    justify-content: left;
+    line-height: 10px;
+    color: white;
+    padding: 20px;
+}
+
+header img {
+    margin: 0 25px;
+    border: 1px white solid;
+    border-radius: 100%;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+p,
+h6,
+h5,
+h4,
+h3,
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: 0 12px;
+}
+
+
+
+/*################# Nav CSS ######################*/
+
+
+nav button {
+    margin: 15px 0 0 15px;
+    border: none;
+    background-color: transparent;
+    color: #666A86;
+}
+
+nav {
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #dadada;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 15px 30px;
+    color: #333333;
+}
+
+nav ul li a:hover {
+    background-color: #333333;
+    color: #fff;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+
+/*################# Clearfix ######################*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*################# Hero image ######################*/
+
+main {
+    margin: auto;
+    max-width: 960px;
+}
+
+main .hero-img img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.summary {
+    color: #000;
+    padding: 5px 10px; 
+}
+
+
+
+/*############ Forecast #########*/
+
+.forecast {
+    border: solid 2px red;
+    
+}
+
+.forecast h2 {
+    background-color: #333333;
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 25px 0;
+}
+
+.forecast img{
+    width: 100%;
+    height: 300px;
+    
+}
