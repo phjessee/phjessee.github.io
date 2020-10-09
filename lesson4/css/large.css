@@ -1,9 +1,4 @@
-@media only screen and (min-width: 920px) {
-    nav {
-       
-        background-color: #dadada;
-    }
-
+@media only screen and (min-width: 960px) {
     header button {
         display: none;
     }
@@ -16,6 +11,7 @@
     }
 
     nav ul li a {
+        display: list-item;
         padding: 1rem 2rem;
     }
 
