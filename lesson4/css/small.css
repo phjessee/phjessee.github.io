@@ -1,21 +1,35 @@
 header {
-    background-color: #666A86;
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: left;
+    background-color: #666A86;
     line-height: 10px;
     color: white;
     padding: 20px;
 }
 
+nav button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
 .main-header {
-    padding-left: 25px;
+    padding-left: 5px;
 }
 
 header img {
     margin: 0 25px;
     border: 1px white solid;
     border-radius: 100%;
+}
+
+header div h1 {
+    line-height: 2rem;
+}
+header div p {
+    line-height: 1rem;
 }
 
 h1 {
@@ -37,16 +51,12 @@ main {
 }
 
 
-/*################# Nav CSS ######################*/
 
 
-nav button {
-    margin: .3rem 2%;
-    border: none;
-    background-color: transparent;
-    color: #666A86;
-    font-size: 1.6rem;
-}
+/*################# Nav ######################*/
+
+
+
 
 nav {
     text-align: center;
