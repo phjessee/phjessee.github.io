@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Preston home Website page for Paul Jessee WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="shortcut icon" type="image/png" href="/lesson4/images/weather-icon.png">
     <link rel="stylesheet" type="text/css" href="/lesson4/css/small.css">
@@ -17,9 +19,8 @@
 
 <body>
     <header>
-        <picture></picture><a href="/lesson4/preston-4.html"><img src="/lesson4/images/weather-icon.png"
+        <a href="/lesson4/preston-4.html"><img src="/lesson4/images/weather-icon.png"
                 alt="website logo with sun, mountain and cloud"></a>
-        </picture>
         <div>
             <h1>Outdoor Temp</h1>
             <p>Your best weather guide</p>
@@ -27,8 +28,8 @@
     </header>
 
     <nav class="clearfix">
-        <ul id="primaryNav" class="">
-            <button onclick="toggleMenu()">&#9776;</button>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
             <li><a href="#">Home</a></li>
             <li class="selected"><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
@@ -39,27 +40,27 @@
     </nav>
 
     <main>
-        <h1>Preston Idaho</h1>
+        <h1 class="main-header">Preston Idaho</h1>
 
-        <section>
+        <div>
             <p class="main-sections">Hero w/ weather summary</p>
-        </section>
+        </div>
 
-        <section>
+        <div>
             <p class="main-sections">5 Day Forecast</p>
-        </section>
+        </div>
 
-        <section>
+        <div>
             <p class="main-sections">Article</p>
-        </section>
+        </div>
 
-        <section>
+        <div>
             <p class="main-sections">Contact Information</p>
-        </section>
+        </div>
 
         <footer>
-            <p>&#169;Outdoor Temp | Attributions | Paul Jessee</p>
-            <span id="currentDate"></span>
+            <p>&#169; Outdoor Temp | -- | Paul Jessee</p>
+            <p>Last Updated: <span id="currentDate"></span></p>
             <script src="/js/test.js"></script>
 
         </footer>

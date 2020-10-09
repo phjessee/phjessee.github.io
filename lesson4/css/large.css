@@ -9,10 +9,12 @@
         display: none;
     }
 
-    nav ul {
+    nav ul.hide {
         display: flex;
         justify-content: center;
-        align-items: center;
+    }
+
+    nav ul {
         margin-left: 3%;
     }
 
@@ -22,6 +24,11 @@
 
     nav ul li a {
         padding: 1rem 2rem;
+    }
+
+    nav ul li.selected a {
+        border-bottom: solid 4px #333333;
+        font-weight: 900;
     }
 
     main section img {
