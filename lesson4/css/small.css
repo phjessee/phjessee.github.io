@@ -25,7 +25,7 @@ header button {
 }
 
 .main-header {
-    padding-left: 5px;
+    padding-left: 1.7rem;
 }
 
 header img {
@@ -71,6 +71,11 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+nav ul li {
+    margin: 15px;
+    
 }
 
 nav ul li a {

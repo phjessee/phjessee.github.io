@@ -7,6 +7,11 @@
         display: none;
     }
 
+    nav ul li {
+        margin: 0;
+        
+    }
+
     nav ul.hide {
         display: flex;
         flex-direction: row;
