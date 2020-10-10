@@ -119,12 +119,11 @@ main .main-sections {
 
 
 footer {
-    margin-top: 15rem;
     background-color: #666A86;
     color: #fff;
     display: block;
     text-align: center;
-    padding: 5px;
+    padding: 25px;
 }
 /*################# Hero image ######################
 
