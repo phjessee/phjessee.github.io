@@ -16,4 +16,8 @@
         font-size: 18px;
         padding: 1rem 2rem;
     }
+    nav ul li a.selected  {
+        border-bottom: #333333 solid 3px;
+        font-weight: bolder;
+    }
 }
