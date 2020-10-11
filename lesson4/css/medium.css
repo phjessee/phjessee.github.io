@@ -1,4 +1,7 @@
 @media only screen and (min-width: 720px) {
+    
+     /*########## Header #########*/
+    
     header img {
         height: 60px;
         margin: 0 10px;
@@ -12,9 +15,12 @@
         display: none;
     }
 
+
+    /*########## Navigation #########*/
+
+
     nav ul li {
         margin: 0;
-        
     }
 
     nav ul.hide {
@@ -28,12 +34,39 @@
         padding: 1rem 1.3rem;
         font-size: 16px;
     }
+
     nav ul li a:hover {
         background-color: #333333;
         color: #fff;
     }
 
-    nav ul li a.selected  {
+    nav ul li a.selected {
         border-bottom: #333333 solid 3px;
+    }
+
+      /*########## Main section #########*/
+
+    main {
+        margin: 0 2%;
+        max-width: 960px;
+    }
+
+
+     /*########## Hero Image #########*/
+
+    main .summary {
+        position: absolute;
+        top: 1.5rem;
+        left: 2rem;
+        padding: 1rem 1.5em;
+        width: 200px;
+        color: #fff;
+        background-color: #333333;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 8px;
+    }
+
+    main .summary h1 {
+        margin: 0;
     }
 }

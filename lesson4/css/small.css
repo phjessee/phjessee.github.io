@@ -1,39 +1,4 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #666A86;
-    line-height: 10px;
-    color: white;
-    padding: 12px;
-}
-
-header div {
-    display: flex;
-    display: row;
-}
-
-header div div {
-    display: block;
-    margin-left: 10px;
-}
-
-header button {
-    border: none;
-    background-color: transparent;
-    color: #fff;
-    font-size: 1.6rem;
-}
-
-.main-header {
-    padding-left: 1.7rem;
-}
-
-header img {
-    height: 45px;
-    margin: 0 5px;
-    border: 1px white solid;
-    border-radius: 100%;
-}
+/*################# Default ######################*/
 
 h1 {
     font-family: 'Lato', sans-serif;
@@ -49,9 +14,40 @@ h2 {
     font-family: 'Roboto', sans-serif;
 }
 
-main {
-    margin: auto;
-    max-width: 960px;
+/*################# Header ######################*/
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #666A86;
+    line-height: 10px;
+    color: white;
+    padding: 12px;
+}
+
+header div {
+    display: flex;
+}
+
+header div div {
+    display: block;
+    margin-left: 10px;
+}
+
+header button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+
+header img {
+    height: 45px;
+    margin: 0 5px;
+    border: 1px white solid;
+    border-radius: 100%;
 }
 
 
@@ -75,7 +71,7 @@ nav ul {
 
 nav ul li {
     margin: 15px;
-    
+
 }
 
 nav ul li a {
@@ -84,7 +80,7 @@ nav ul li a {
     color: #333333;
 }
 
-nav ul li a.selected  {
+nav ul li a.selected {
     font-weight: bolder;
 }
 
@@ -107,16 +103,22 @@ nav ul.hide {
 }
 
 
-main .main-sections {
+/*################# Main Section ######################*/
+
+.main-sections {
     background-color: #dadada;
     padding: 25px;
     border: #333333 dashed 1px;
 }
 
+main {
+    margin: 2%;
+    max-width: 960px;
+}
+
+
 
 /*################# Footer ######################*/
-
-
 
 footer {
     background-color: #666A86;
@@ -125,7 +127,8 @@ footer {
     text-align: center;
     padding: 25px;
 }
-/*################# Hero image ######################
+
+/*################# Hero image ######################*/
 
 
 main .hero-img img {
@@ -134,12 +137,13 @@ main .hero-img img {
     margin-right: 0;
 }
 
-.summary {
-    color: #000;
-    padding: 5px 10px; 
+.hero-img {
+    position: relative;
 }
 
-*/
+
+
+
 
 /*############ Forecast #########
 
@@ -162,4 +166,3 @@ main .hero-img img {
     
 }
 */
-

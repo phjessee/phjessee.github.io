@@ -2,5 +2,9 @@ function toggleMenu(){
     document.getElementById("primaryNav").classList.toggle("hide");
 }
 
-var x = document.lastModified;
-document.getElementById("currentDate").innerHTML = x;
+try {
+    const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
+    document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', options);
+} catch (e) {
+    alert('Error with code or your browser does not support Locale');
+}

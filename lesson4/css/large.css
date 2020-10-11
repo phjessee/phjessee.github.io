@@ -1,5 +1,6 @@
 @media only screen and (min-width: 1080px) {
 
+    /*########## Header #########*/
     header img {
         height: 70px;
         margin: 0 10px;
@@ -13,6 +14,10 @@
     header button {
         display: none;
     }
+
+    /*########## Navigation #########*/
+
+
     nav ul li {
         margin: 0 10px;
     }
@@ -21,7 +26,35 @@
         font-size: 18px;
         padding: 1rem 2rem;
     }
-    nav ul li a.selected  {
+
+    nav ul li a.selected {
         border-bottom: #333333 solid 3px;
     }
+
+
+    /*########## Main #########*/
+
+
+    main {
+        margin: auto;
+        max-width: 1020px;
+    }
+
+
+    /*########## Hero image #########*/
+
+
+    main .summary {
+        top: 1.5rem;
+        left: 2rem;
+        padding: 1rem 1.5em;
+        width: 20rem;
+    }
+
+  
+
+
+
+
+
 }
