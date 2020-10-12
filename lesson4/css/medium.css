@@ -1,7 +1,7 @@
 @media only screen and (min-width: 720px) {
-    
-     /*########## Header #########*/
-    
+
+    /*########## Header #########*/
+
     header img {
         height: 60px;
         margin: 0 10px;
@@ -44,26 +44,107 @@
         border-bottom: #333333 solid 3px;
     }
 
-      /*########## Main section #########*/
-
-   
+    /*########## Main section #########*/
 
 
-     /*########## Hero Image #########*/
+    /*########## Weather Summary #########*/
+
 
     main .summary {
         position: absolute;
         top: 1.5rem;
         left: 2rem;
-        padding: 1rem 1.5em;
+        padding: 1rem;
+        padding-right: 3rem;
+        white-space: nowrap;
         width: 200px;
         color: #fff;
         background-color: #333333;
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.6);
         border-radius: 8px;
     }
 
     main .summary h1 {
         margin: 0;
     }
+
+    .summary {
+        display: block;
+    }
+
+    .secondHalf {
+        padding-top: 0px;
+        padding-right: 12px;
+    }
+
+    .weatherValue {
+        color: #ECD87D;
+        text-align: left;
+    }
+
+
+    /*########## 5 Day forecast #########*/
+
+    .hideForecast {
+        display: block;
+    }
+
+    .fiveDayForecast {
+        display: flex;
+        justify-content: space-between;
+        background-color: #666A86;
+        padding: 1rem 3rem;
+    }
+
+    .fiveDayForecast div {
+        border: #dadada solid 2px;
+        padding: 0 2rem;
+    }
+
+    .fiveDayForecast div h2 {
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .fiveDayForecast div img {
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: .5rem;
+    }
+
+    .hideForecast {
+        visibility: visible;
+    }
+
+
+    /*########## Article #########*/
+
+    .topImg {
+        display: block;
+        float: right;
+        margin: 0;
+        max-width: 100%;
+        height: 300px;
+        margin: 0 0 1rem 1rem;
+    }
+
+    .secondParagraph {
+        display: block;
+    }
+
+    .bottomImg {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
 }

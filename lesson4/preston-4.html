@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Preston home Website page for Paul Jessee WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <meta name="description"
+        content="Preston home Website page for Paul Jessee WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="shortcut icon" type="image/png" href="/lesson4/images/weather-icon.png">
     <link rel="stylesheet" type="text/css" href="/lesson4/css/small.css">
@@ -49,26 +50,101 @@
         <div class="hero-img">
             <img src="/lesson4/images/hiker-1149898_1920.jpg" alt="hiker in the wilderness">
             <div class="summary">
-                <h1>weather Summary</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet
+                <div>
+                    <h1>weather Summary</h1>
+                    <p>Currently: <span class="weatherValue">Partly Cloudy</span></p>
+                    <p>Feels Like: <span class="weatherValue">25°F</span></p>
+                    <p>Wind Chill: <span class="weatherValue">30°F</span></p>
+                </div>
+                <div class="secondHalf">
+                    <p>Humidity: <span class="weatherValue">34%</span></p>
+                    <p>Dew Point: <span class="weatherValue">31°F</span></p>
+                    <p>Sunrise/Set: <span class="weatherValue">07:30 am / 06:50 pm</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hideForecast">
+            <h1>5 Day Forecast</h1>
+            <div class="fiveDayForecast">
+
+                <div>
+                    <h2>Wed</h2>
+                    <img src="/lesson4/images/sunny.svg" alt="icon of the sun">
+                </div>
+                <div>
+                    <h2>Thur</h2>
+                    <img src="/lesson4/images/partly-cloudy.svg" alt="icon of the sun">
+                </div>
+                <div>
+                    <h2>Fri</h2>
+                    <img src="/lesson4/images/rainy.svg" alt="icon of the sun">
+                </div>
+                <div>
+                    <h2>Sat</h2>
+                    <img src="/lesson4/images/partly-cloudy.svg" alt="icon of the sun">
+                </div>
+                <div>
+                    <h2>Sun</h2>
+                    <img src="/lesson4/images/sunny.svg" alt="icon of the sun">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="forecast">
+            <div class="forecastArticle">
+                <h3>Best Hikes In Preston</h3>
+                <p> <img src="/lesson4/images/fall-hike.jpg" alt="image of fall trees and mountain" class="topImg">Lorem
+                    ipsum dolor
+                    sit amet consectetur adipisicing elit. Laboriosam quos minus odio voluptatum sint
+                    at dolorem, porro, voluptas magnam fuga, dolor quis modi qui itaque reiciendis quia temporibus
+                    debitis deserunt.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quos minus odio voluptatum sint
+                    at dolorem, porro, voluptas magnam fuga, dolor quis modi qui itaque reiciendis quia temporibus
+                    debitis deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quos minus
+                    odio voluptatum sint
+                    at dolorem, porro, voluptas magnam fuga, dolor quis modi qui itaque reiciendis quia temporibus
+                    debitis deserunt.
+                    <img src="/lesson4/images/fall-hike.jpg" alt="image of fall trees and mountain" class="bottomImg">
+                    <div class="secondParagraph">
+                        <p>
+                            at dolorem, porro, voluptas magnam fuga, dolor quis modi qui itaque reiciendis quia
+                            temporibus
+                            debitis deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quos
+                            minus
+                            odio voluptatum sint
+                            at dolorem, porro, voluptas magnam fuga, dolor quis modi qui itaque reiciendis quia
+                            temporibus
+                            debitis deserunt.
+                            at dolorem, porro, voluptas magnam fuga, dolor quis modi qui itaque reiciendis quia
+                            temporibus
+                            debitis deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quos
+                            minus
+                            odio voluptatum sint
+                            at dolorem, porro, voluptas magnam fuga, dolor quis modi qui itaque reiciendis quia
+                            temporibus
+                            debitis deserunt.
+                        </p>
+                    </div>
                 </p>
             </div>
         </div>
 
-        <section>
-            <div>
-                <p class="main-sections">5 Day Forecast</p>
-            </div>
 
-            <div>
-                <p class="main-sections">Article</p>
+        <div class="contactInfo">
+            <h3>Contact Information</h3>
+            <div class="info">
+                <img src="/lesson4/images/email.svg" alt="icon of envelope">
+                <p>outdoortemp@myemail.com</p>
             </div>
+            <div class="info">
+                <img src="/lesson4/images/phone.svg" alt="icon of envelope">
+                <p>801-909-9090</p>
+            </div>
+            <img src="/lesson4/images/city-map.jpg" alt="map of preston idaho" class="cityMap">
+        </div>
 
-            <div>
-                <p class="main-sections">Contact Information</p>
-            </div>
-        </section>
 
         <footer>
             <p> &#169; Outdoor Temp | -- | Paul Jessee |
@@ -77,43 +153,5 @@
         </footer>
     </main>
 </body>
+
 </html>
-
-
-
-
-<!--
-     
-
-        <section class="forecast">
-            <h2>Five Day Forecast</h2>
-            <h3>Article Title</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur voluptates, modi officia est
-                beatae nam libero, voluptate, qui fuga veniam repellat ratione nisi quae alias quaerat hic explicabo
-                a.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur voluptates, modi officia
-            </p>
-            <img src="/lesson4/images/thunderstorm-3440450_640.jpg" alt="">
-
-        </section>
-
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-
-
-        <article>
-            <h3>Article Title</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur voluptates, modi officia est
-                beatae nam libero, voluptate, qui fuga veniam repellat ratione nisi quae alias quaerat hic explicabo
-                a.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur voluptates, modi officia
-                est beatae nam libero, voluptate, qui fuga veniam repellat ratione nisi quae alias quaerat hic explicabo
-                a.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur voluptates, modi officia
-                est beatae nam libero, voluptate, qui fuga veniam repellat ratione nisi quae alias quaerat hic explicabo
-                a.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur voluptates, modi officia
-                est beatae nam libero, voluptate, qui fuga veniam repellat ratione nisi quae alias quaerat hic explicabo
-                a.</p>
-        </article>
-
--->
