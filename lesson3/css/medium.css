@@ -4,4 +4,8 @@
         display: flex;
         justify-content: space-around;
     }
+
+.container {
+        margin: 0 10%;
+    }
 }
