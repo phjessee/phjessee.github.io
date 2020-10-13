@@ -117,6 +117,18 @@ main {
     margin-right: 2%;
 }
 
+.mainSection {
+    margin: 5rem 0;
+  }
+.placeHolders {
+    background-color: #dadada;
+    border: 1px solid #333333;
+    margin-top: 2rem;
+}
+
+.placeHolders h4 {
+    padding-left: 2rem;
+}
 
 /*################# Footer ##############*/
 
@@ -131,119 +143,6 @@ footer {
 /*########### Hero image ################*/
 
 
-main .hero-img img {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.hero-img {
-    position: relative;
-}
-
-
-/*########### Weather Summary ################*/
-
-
-.summary {
-    display: flex;
-    justify-content: space-between;
-    background-color: #333333;
-    padding: 10px 12px;
-}
-
-.summary h1 {
-    color: #fff;
-}
-
-.summary p {
-    color: #fff;
-}
-
-.weatherValue {
-    color: #ECD87D;
-    text-align: left;
-}
-
-.secondHalf {
-    padding-top: 30px;
-    padding-right: 12px;
-}
-
-
-/*########### 5 Day Forecast ################*/
-
-
-.hideForecast {
-    display: none;
-}
-
-
-/*########### Article ################*/
-
-.forecast {
-    border: 2px solid #dadada;
-    margin: 1.5rem 0;
-    padding-bottom: 0;
-}
-
-.forecast h1 {
-    text-align: left;
-    background-color: #dadada;
-    color: #333333;
-    padding: 1.5rem 1rem;
-    margin-top: 0;
-}
-
-.forecastArticle {
-    padding: 0 1rem;
-    margin-top: 0;
-}
-
-.topImg {
-    display: none;
-}
-
-.secondParagraph {
-    display: none;
-}
-
-.bottomImg {
-    max-width: 100%;
-    margin: auto;
-    padding-top: 1rem;
-}
-
-.forecast p {
-    line-height: 1.4rem;
-}
-
-
-/*########### Contact Information ################*/
-
-
-.contactInfo {
-    background-color: #dadada;
-    margin-top: 1.5rem;
-    padding: 1rem 1rem;
-}
-
-.info {
-    display: flex;
-}
-
-.info img {
-    padding-right: .5rem;
-}
-.largeCityMap {
-    display: none;
-}
-
-.smallCityMap {
-    display: block;
-    margin: auto;
-    max-width: 100%;
-}
 
 
 
@@ -253,37 +152,3 @@ main .hero-img img {
 
 
 
-/*########### Xtra small media query ################*/
-
-
-@media only screen and (max-width: 480px) {
-    .summary {
-        margin-top: .3rem;
-        display: block;
-        background-color: #dadada;
-        padding: 5px 12px;
-    }
-
-    .hero-img .summary .secondHalf {
-        padding-top: 0;
-    }
-
-    .summary {
-        margin-top: 0;
-        background-color: #333333;
-        padding: 10px 12px;
-    }
-    
-    .summary h1 {
-        color: #fff;
-    }
-    
-    .summary p {
-        color: #fff;
-    }
-    
-    .weatherValue {
-        color: #ECD87D;
-        text-align: left;
-    }
-}
