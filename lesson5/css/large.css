@@ -44,14 +44,14 @@
     /*########## Weather Summary #########*/
 
 
-    main .summary {
+    .summary {
         top: 1.5rem;
         left: 2rem;
         padding: 1rem 1.5em;
-        width: 20rem;
+        width: 16rem;
     }
 
-    main .summary {
+    .summary {
         padding: 1rem;
         padding-right: 0rem;
     }
