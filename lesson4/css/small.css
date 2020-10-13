@@ -148,8 +148,21 @@ main .hero-img img {
 .summary {
     display: flex;
     justify-content: space-between;
-    background-color: #dadada;
+    background-color: #333333;
     padding: 10px 12px;
+}
+
+.summary h1 {
+    color: #fff;
+}
+
+.summary p {
+    color: #fff;
+}
+
+.weatherValue {
+    color: #ECD87D;
+    text-align: left;
 }
 
 .secondHalf {
@@ -206,9 +219,8 @@ main .hero-img img {
 }
 
 
-
-
 /*########### Contact Information ################*/
+
 
 .contactInfo {
     background-color: #dadada;
@@ -223,7 +235,12 @@ main .hero-img img {
 .info img {
     padding-right: .5rem;
 }
-.cityMap {
+.largeCityMap {
+    display: none;
+}
+
+.smallCityMap {
+    display: block;
     margin: auto;
     max-width: 100%;
 }
@@ -236,11 +253,8 @@ main .hero-img img {
 
 
 
+/*########### Xtra small media query ################*/
 
-
-
-
-/*########### 5 Day Forecast ################*/
 
 @media only screen and (max-width: 480px) {
     .summary {
@@ -252,5 +266,24 @@ main .hero-img img {
 
     .hero-img .summary .secondHalf {
         padding-top: 0;
+    }
+
+    .summary {
+        margin-top: 0;
+        background-color: #333333;
+        padding: 10px 12px;
+    }
+    
+    .summary h1 {
+        color: #fff;
+    }
+    
+    .summary p {
+        color: #fff;
+    }
+    
+    .weatherValue {
+        color: #ECD87D;
+        text-align: left;
     }
 }
