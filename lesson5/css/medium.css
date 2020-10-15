@@ -77,47 +77,25 @@
         padding-right: 12px;
     }
 
-
-
     /*########## 5 Day forecast #########*/
 
-    .hideForecast {
-        display: block;
-    }
-
     .fiveDayForecast {
-        display: flex;
-        justify-content: space-between;
-        background-color: #666A86;
         padding: 1rem 3rem;
     }
 
     .fiveDayForecast div {
         border: #dadada solid 2px;
-        padding: 0 2rem;
+        padding: 0 2.5rem;
     }
 
     .fiveDayForecast div p {
-        color: #fff;
-        text-align: center;
         font-size: 18px;
     }
 
     .fiveDayForecast div h2 {
-        color: #fff;
-        text-align: center;
         font-size: 20px;
     }
 
-    .fiveDayForecast div img {
-        margin-left: 0;
-        margin-right: 0;
-        padding-bottom: .5rem;
-    }
-
-    .hideForecast {
-        visibility: visible;
-    }
 
 
     /*########## Article #########*/
@@ -146,7 +124,7 @@
         display: block;
         background-color: #dadada;
         margin-top: 1.5rem;
-        padding: 1rem 1rem;
+        padding: 3rem 1rem;
     }
 
     .subContactLayer {

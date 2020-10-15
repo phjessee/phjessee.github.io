@@ -9,3 +9,9 @@ try {
     alert('Error with code or your browser does not support Locale');
 }
 
+var d = new Date();
+var x = d.getDay();
+
+if (d.getDay === 4()) {
+    document.getElementById('message').style
+}

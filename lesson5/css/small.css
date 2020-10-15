@@ -51,6 +51,20 @@ header img {
 }
 
 
+/*################# Message ######################*/
+
+.message {
+    display: none;
+    text-align: center;
+    background-color: #94B8D1;
+    color: #fff;
+    font-size: 14px;
+    padding: .5rem .3rem;
+
+}
+
+
+
 /*################# Nav ######################*/
 
 
@@ -174,8 +188,44 @@ main .hero-img img {
 /*########### 5 Day Forecast ################*/
 
 
-.hideForecast {
-    display: none;
+.fiveDayContainer {
+    max-width: auto;
+    margin: auto;
+}
+
+.fiveDayForecast {
+    display: flex;
+    justify-content: space-around;
+    background-color: #666A86;
+    padding: 1rem .5rem;
+}
+
+.fiveDayForecast div {
+    border: #dadada solid 2px;
+    padding: 0 4%;
+}
+
+.fiveDayForecast div:hover {
+    background-color: #333333;
+    border: 2px solid #333333;
+}
+
+.fiveDayForecast div p {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.fiveDayForecast div h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.fiveDayForecast div img {
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: .5rem;
 }
 
 
@@ -232,7 +282,7 @@ main .hero-img img {
 .contactInfo {
     background-color: #dadada;
     margin-top: 1.5rem;
-    padding: 1rem 1rem;
+    padding: 2rem 1rem;
     line-height: .5rem;
 }
 
@@ -248,6 +298,7 @@ main .hero-img img {
     display: block;
     margin: auto;
     max-width: 100%;
+    padding-top: 1rem;
 }
 
 .contactInfoLarge {
@@ -266,10 +317,10 @@ main .hero-img img {
 
 
 @media only screen and (max-width: 480px) {
-   header p {
-line-height: 1rem;
-   }
-   
+    header p {
+        line-height: 1rem;
+    }
+
     .summary {
         margin-top: .3rem;
         display: block;
@@ -286,17 +337,31 @@ line-height: 1rem;
         background-color: #333333;
         padding: 10px 12px;
     }
-    
+
     .summary h1 {
         color: #fff;
     }
-    
+
     .summary p {
         color: #fff;
     }
-    
+
     .weatherValue {
         color: #ECD87D;
         text-align: left;
+    }
+
+    .fiveDayForecast {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .fiveDayForecast div {
+        border: 1px solid #dadada;
+        padding: 0 .5rem;
+    }
+
+    .fiveDayForecast div img {
+       height: 30px;
     }
 }

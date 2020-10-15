@@ -68,13 +68,11 @@
     }
 
     .fiveDayForecast div {
-        border: #dadada solid 2px;
         padding: 0 3rem;
     }
 
     .fiveDayForecast div h2 {
         font-size: 20px;
-
     }
 
     .fiveDayForecast div img {
@@ -86,7 +84,6 @@
     /*########## Contact Info #########*/
 
     .subContactLayer {
-        display: flex;
         max-width: 960px;
         margin: auto;
     }
@@ -105,4 +102,5 @@
         padding-right: 1rem;
         height: 34px;
     }
+
 }
