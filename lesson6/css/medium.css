@@ -51,10 +51,11 @@
 
 
     .summary {
+        display: block;
         position: absolute;
         top: 1.5rem;
         left: 2rem;
-        padding: 1rem;
+        padding: .5rem;
         padding-right: 3rem;
         white-space: nowrap;
         width: 13rem;
@@ -64,12 +65,12 @@
         border-radius: 8px;
     }
 
-    .summary h1 {
+   .summary h1 {
         margin: 0;
+        font-size: 18px;
     }
-
-    .summary {
-        display: block;
+    .summary p {
+        line-height: .7rem;
     }
 
     .secondHalf {

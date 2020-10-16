@@ -49,13 +49,17 @@
         left: 2rem;
         padding: 1rem 1.5em;
         width: 16rem;
-    }
-
-    .summary {
         padding: 1rem;
         padding-right: 0rem;
     }
 
+    .summary h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+.summary p {
+    line-height: 1rem;
+}
 
     /*########## Weather Summary #########*/
 
