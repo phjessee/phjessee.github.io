@@ -56,11 +56,10 @@ header img {
 #message {
     display: none;
     text-align: center;
-    background-color: #94B8D1;
+    background-color: #4b84ac;
     color: #fff;
-    font-size: 15px;
-    padding: .5rem .3rem;
-
+    font-size: 16px;
+    padding: .7rem .3rem;
 }
 
 

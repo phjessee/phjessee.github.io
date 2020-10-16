@@ -19,7 +19,7 @@ try {
 var d = new Date();
 var x = d.getDay();
 
-if (x == 6) {
+if (x == 4) {
     document.getElementById('message').style.display = "block";
 }
 else {
