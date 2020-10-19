@@ -143,17 +143,18 @@ footer {
 
 /*########### Hero image ################*/
 
-
-main .hero-img img {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-}
-
 .hero-img {
     position: relative;
 }
 
+.hero-img picture {
+    margin: 0 0;
+}
+
+.hero-img picture img {
+    max-width: 100%;
+    margin: auto;
+}
 
 /*########### Weather Summary ################*/
 
