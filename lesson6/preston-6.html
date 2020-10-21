@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+654`
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,10 +14,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <script src="/lesson6/js/windchill.js"></script>
     <title>Outdoor Temp</title>
 </head>
-
+s
 <body>
     <header>
         <div>
@@ -34,7 +33,6 @@
     <div id="message">
         <p>Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
     </div>
-
     <nav class="clearfix">
         <ul id="primaryNav" class="hide">
             <li><a href="#">Home</a></li>
@@ -57,14 +55,13 @@
             <div class="summary">
                 <div>
                     <h1>weather Summary</h1>
-                    <p>Currently: <span class="weatherValue">Partly Cloudy</span></p>
+                    <p>Current Temp: <span class="weatherValue" id="temp">60</span>°F</p>
                     <p>Feels Like: <span class="weatherValue">25°F</span></p>
-                    <p>Wind Chill: <span class="weatherValue">30°F</span></p>
+                    <p>Wind Chill: <span class="weatherValue" id="chill"></span</p>
                 </div>
                 <div class="secondHalf">
                     <p>Humidity: <span class="weatherValue">34%</span></p>
-                    <p>Dew Point: <span class="weatherValue" id="windChill">31°F</span></p>
-                    <p>Sunrise/Set: <span class="weatherValue">07:30 am / 06:50 pm</span></p>
+                    <p>Wind Speed: <span class="weatherValue" id="wind">12</span>mph</p>
                 </div>
             </div>
         </div>
@@ -175,6 +172,7 @@
         <p> &#169; Outdoor Temp | -- | Paul Jessee |
             Current Date: <span id="currentDate"></span></p>
         <script src="/lesson5/js/script.js"></script>
+        <script src="/lesson6/js/windchill.js" type="text/javascript"></script>
     </footer>
 </body>
 
