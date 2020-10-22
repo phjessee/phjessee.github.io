@@ -171,11 +171,12 @@ footer {
 }
 
 .summary p {
+    font-weight: lighter;
     color: #fff;
 }
 
 .weatherValue {
-    color: #ECD87D;
+    font-weight: bold;
     text-align: left;
 }
 
