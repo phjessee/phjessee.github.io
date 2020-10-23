@@ -189,11 +189,6 @@ footer {
 /*########### 5 Day Forecast ################*/
 
 
-.fiveDayContainer {
-    max-width: auto;
-    margin: auto;
-}
-
 .fiveDayForecast {
     display: flex;
     justify-content: space-around;
