@@ -6,20 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Lazy loading assignment for Paul Jessee WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-    <link rel="stylesheet" href="/lesson7/css/main.css">
+    <link rel="stylesheet" href="lazy-css/lazy.css">
+    <script src="/lesson7/lazy-js/lazy.js" defer></script>
     <title>Lazy Loading</title>
 </head>
 
 <body>
-    <h1></h1>
-    <div class="images">
-        <picture> <img src="/lesson7/images/autumn-forest-4561344_640.jpg"></picture>
-        <picture> <img src="/lesson7/images/autumn-forest-4561344_640.jpg"></picture>
-        <picture> <img src="/lesson7/images/autumn-forest-4561344_640.jpg"></picture>
-        <picture class="placeholder"><img src="/lesson7/images/autumn-forest-4561344_640.jpg"></picture>
-        <picture> <img src="/lesson7/images/johannes-plenio-RwHv7LgeC7s-unsplash.jpg"></picture>
-        <picture> <img src="/lesson7/images/johannes-plenio-RwHv7LgeC7s-unsplash.jpg"></picture>
-    </div>
+    <h1>Lazy Loading</h1>
+    <main>
+        <div class=images>
+            <picture class="gallery-item gallery-item-1">
+              <img src="/lesson7/images/autumn-forest-lazy.jpg" class="gallery__img" alt="Image 1">
+            </picture>
+            <picture class="gallery-item gallery-item-2">
+                <img src="/lesson7/images/autumn-forest-lazy.jpg" class="gallery__img" alt="Image 2">
+              </picture>
+              <picture class="gallery-item gallery-item-3">
+                <img src="/lesson7/images/autumn-forest-lazy.jpg" class="gallery__img" alt="Image 3">
+              </picture>
+              <picture class="gallery-item gallery-item-4">
+                <img src="/lesson7/images/autumn-forest-lazy.jpg" class="gallery__img" alt="Image 4">
+              </picture>
+              <picture class="gallery-item gallery-item-5">
+                <img src="/lesson7/images/autumn-forest-lazy.jpg" class="gallery__img" alt="Image 5">
+              </picture>
+              <picture class="gallery-item gallery-item-6">
+                <img src="/lesson7/images/autumn-forest-lazy.jpg" class="gallery__img" alt="Image 6">
+              </picture>
+          </div>
+    </main>
 </body>
 
 </html>
