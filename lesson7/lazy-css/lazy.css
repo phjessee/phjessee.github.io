@@ -1,8 +1,19 @@
-
-
 body {
+    margin: 0;
+}
+
+main {
     max-width: 1280px;
     margin: auto;
+}
+
+h1 {
+    margin: 0;
+    background-color: #666A89;
+    color: #fff;
+    padding: 1rem;
+    max-width: 100%;
+    margin-bottom: 1rem;
 }
 .images {
     display: grid;
@@ -16,7 +27,7 @@ figure {
     margin: 0;
 }
 
-.gallery__img {
+.gallery-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
