@@ -1,0 +1,168 @@
+/*################# Default ######################*/
+
+body {
+    background-color: #f0f0f0;
+}
+
+main {
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+main h1 {
+    padding-left: .8rem;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+p,
+h6,
+h5,
+h4,
+h3,
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*################# Header ######################*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #666A86;
+    line-height: 10px;
+    color: white;
+    padding: 12px;
+}
+
+header div {
+    display: flex;
+}
+
+header div div {
+    display: block;
+    margin-left: 10px;
+}
+
+header button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+
+header img {
+    height: 45px;
+    margin: 0 5px;
+    border: 1px white solid;
+    border-radius: 100%;
+}
+
+/*################# Message ######################*/
+
+#message {
+    display: none;
+    text-align: center;
+    background-color: #4b84ac;
+    color: #fff;
+    font-size: 16px;
+    padding: .4rem .3rem;
+}
+
+/*################# Nav ######################*/
+
+
+nav {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #dadada;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333333;
+}
+
+.selected {
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    background-color: #333333;
+    color: #fff;
+}
+
+.hide {
+    display: none;
+}
+
+/*############## Clearfix #############*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*############### Images ##############*/
+
+
+.images {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: 1;
+    justify-content: center;
+    margin: .5rem 0 1rem 0;
+}
+
+.gallery-item {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 .5rem;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-text {
+    margin: .2rem 0 .5rem 1rem;
+}
+
+
+
+
+/*############# Footer ##############*/
+
+footer {
+    background-color: #666A86;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+
+}
