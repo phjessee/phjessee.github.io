@@ -12,14 +12,13 @@ h1 {
     align-items: center;
 }
 
-img [data-src] {
-    filter: blur(0.2em);
-}
 
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
 img {
     filter: blur(0em);
     transition: filter 0.5s;
-    margin: 3rem;
-    width: 400px;
-    height: 300px;
-}
+    margin: 1rem;
+  }
