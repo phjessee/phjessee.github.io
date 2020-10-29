@@ -128,7 +128,7 @@ nav ul li a:hover {
 .images {
     display: grid;
     grid-gap: 12px;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     justify-content: center;
     margin: .5rem 0 1rem 0;
 }
@@ -162,7 +162,4 @@ footer {
     display: block;
     text-align: center;
     padding: 25px;
-}
-
-
 }
