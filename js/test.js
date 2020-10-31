@@ -5,4 +5,8 @@ var n = new Date();
 var y = n.getFullYear();
 document.getElementById("currentYear").innerHTML = y;
 
-WebFont.load({ google: { families: ['Roboto']}});
+WebFont.load({
+    google: {
+        families: ['Roboto']
+    }
+});
