@@ -1,0 +1,90 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    max-width: 350px;
+    border-collapse: collapse;
+    display: table;
+    width: 100%;
+    height: 25rem;
+    box-shadow: 15px 8px 16px 0 rgba(45, 121, 126, 0.7);
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+table,
+th,
+td {
+    border: 2px darkgray solid;
+}
+
+.header {
+    background-color: #7fb9c2;
+    font-size: 32px;
+    padding: 1rem;
+    word-spacing: .5rem;
+    text-align: center;
+}
+
+.sub-header th {
+    font-size: 20px;
+}
+
+.period {
+    text-align: center;
+    padding: .25rem 0;
+}
+
+.sales {
+    text-align: center;
+}
+
+.goal {
+    text-align: center;
+}
+
+.sub-header {
+    color: white;
+    background-color: #628ca6;
+}
+
+.first-row {
+    background-color: #e7f0ed;
+}
+
+.second-row {
+    background: #e7ffed;
+}
+
+.third-row {
+    background-color: #e7f0ed;
+}
+
+.fourth-row {
+    background: #e7ffed;
+}
+
+.fourth-row .third-item {
+    background-color: #628ca6;
+    color: white;
+}
+
+.fifth-row {
+    background: #e7f0ed;
+}
+
+.fifth-row .period {
+    font-style: italic;
+}
+
+.sixth-row {
+    background: #e7ffed;
+}
+
+.bottom-row {
+    text-align: center;
+    padding: .5rem;
+    background-color: #7fb9c2;
+    font-size: 14px;
+    font-weight: 400;
+}
