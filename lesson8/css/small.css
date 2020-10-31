@@ -131,149 +131,9 @@ main {
 }
 
 
-/*################# Footer ##############*/
-
-footer {
-    background-color: #666A86;
-    color: #fff;
-    display: block;
-    text-align: center;
-    padding: 25px;
-}
-
-/*########### Hero image ################*/
+/*########### Form ################*/
 
 
-main .hero-img img {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.hero-img {
-    position: relative;
-}
-
-
-/*########### Weather Summary ################*/
-
-
-.summary {
-    display: flex;
-    justify-content: space-between;
-    background-color: #333333;
-    padding: 10px 12px;
-}
-
-.summary h1 {
-    color: #fff;
-}
-
-.summary p {
-    color: #fff;
-}
-
-.weatherValue {
-    color: #ECD87D;
-    text-align: left;
-}
-
-.secondHalf {
-    padding-top: 30px;
-    padding-right: 12px;
-}
-
-
-/*########### 5 Day Forecast ################*/
-
-
-.fiveDayContainer {
-    max-width: auto;
-    margin: auto;
-}
-
-.fiveDayForecast {
-    display: flex;
-    justify-content: space-around;
-    background-color: #666A86;
-    padding: 1rem .5rem;
-}
-
-.fiveDayForecast div {
-    border: #dadada solid 2px;
-    padding: 0 4%;
-}
-
-.fiveDayForecast div:hover {
-    background-color: #333333;
-    border: 2px solid #333333;
-}
-
-.fiveDayForecast div p {
-    color: #fff;
-    text-align: center;
-    font-size: 14px;
-}
-
-.fiveDayForecast div h2 {
-    color: #fff;
-    text-align: center;
-    font-size: 16px;
-}
-
-.fiveDayForecast div img {
-    margin-left: 0;
-    margin-right: 0;
-    padding-bottom: .5rem;
-}
-
-
-/*########### Article ################*/
-
-.forecast {
-    border: 2px solid #dadada;
-    margin: 1.5rem 0;
-    padding-bottom: 0;
-}
-
-.forecast h1 {
-    text-align: left;
-    background-color: #dadada;
-    color: #333333;
-    padding: 1.5rem 1rem;
-    margin-top: 0;
-}
-
-.forecastArticle {
-    padding: 0 1rem;
-    margin-top: 0;
-}
-
-.topImg {
-    display: none;
-}
-
-.secondParagraph {
-    display: none;
-}
-
-.bottomImg {
-    max-width: 100%;
-    margin: auto;
-    padding-top: 1rem;
-}
-
-.forecast p {
-    line-height: 1.4rem;
-}
-
-.secondParagraph p {
-    text-indent: 2rem;
-}
-
-.forecastArticle p {
-    text-indent: 2rem;
-}
 
 /*########### Contact Information ################*/
 
@@ -303,6 +163,20 @@ main .hero-img img {
 .contactInfoLarge {
     display: none;
 }
+
+
+
+
+/*################# Footer ##############*/
+
+footer {
+    background-color: #666A86;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
 
 
 

@@ -47,76 +47,13 @@
     /*########## Main section #########*/
 
 
-    /*########## Weather Summary #########*/
+    
 
 
-    .summary {
-        position: absolute;
-        top: 1.5rem;
-        left: 2rem;
-        padding: 1rem;
-        padding-right: 3rem;
-        white-space: nowrap;
-        width: 13rem;
-        color: #fff;
-        background-color: #333333;
-        background-color: rgba(0, 0, 0, 0.6);
-        border-radius: 8px;
-    }
-
-    .summary h1 {
-        margin: 0;
-    }
-
-    .summary {
-        display: block;
-    }
-
-    .secondHalf {
-        padding-top: 0px;
-        padding-right: 12px;
-    }
-
-    /*########## 5 Day forecast #########*/
-
-    .fiveDayForecast {
-        padding: 1rem 3rem;
-    }
-
-    .fiveDayForecast div {
-        border: #dadada solid 2px;
-        padding: 0 2.5rem;
-    }
-
-    .fiveDayForecast div p {
-        font-size: 18px;
-    }
-
-    .fiveDayForecast div h2 {
-        font-size: 20px;
-    }
+     /*########## Form #########*/
 
 
-
-    /*########## Article #########*/
-
-    .topImg {
-        display: block;
-        float: right;
-        margin: 0;
-        max-width: 100%;
-        height: 300px;
-        margin: 0 0 1rem 1rem;
-    }
-
-    .secondParagraph {
-        display: block;
-    }
-
-    .bottomImg {
-        display: none;
-    }
-
+     
 
     /*########## Contact Information #########*/
 

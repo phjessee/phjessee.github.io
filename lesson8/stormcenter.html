@@ -37,120 +37,123 @@
     <nav class="clearfix">
         <ul id="primaryNav" class="hide">
             <li><a href="#">Home</a></li>
-            <li><a href="#" class="selected">Preston</a></li>
+            <li><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
+            <li><a href="#" class="selected">Storm Center</a></li>
             <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
     <main>
-        <h1 class="main-header">Preston Idaho</h1>
-        <div class="hero-img">
-            <img src="/lesson5/images/hiker-1149898_1280.jpg" alt="hiker in the wilderness">
-            <div class="summary">
-                <div>
-                    <h1>weather Summary</h1>
-                    <p>Currently: <span class="weatherValue">Partly Cloudy</span></p>
-                    <p>Feels Like: <span class="weatherValue">25°F</span></p>
-                    <p>Wind Chill: <span class="weatherValue">30°F</span></p>
+        <div class="container">
+            <div class="header">
+                <h2>Create Account</h2>
+            </div>
+            <form id="form" class="form">
+                <div class="form-control">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="florinpop17" id="username" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
                 </div>
-                <div class="secondHalf">
-                    <p>Humidity: <span class="weatherValue">34%</span></p>
-                    <p>Dew Point: <span class="weatherValue">31°F</span></p>
-                    <p>Sunrise/Set: <span class="weatherValue">07:30 am / 06:50 pm</span></p>
+                <div class="form-control">
+                    <label for="username">Email</label>
+                    <input type="email" placeholder="a@florin-pop.com" id="email" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
                 </div>
+                <div class="form-control">
+                    <label for="username">Password</label>
+                    <input type="password" placeholder="Password" id="password"/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="username">Password check</label>
+                    <input type="password" placeholder="Password two" id="password2"/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+        
+        
+        <!-- SOCIAL PANEL HTML -->
+        <div class="social-panel-container">
+            <div class="social-panel">
+                <p>Created with <i class="fa fa-heart"></i> by
+                    <a target="_blank" href="https://florin-pop.com">Florin Pop</a></p>
+                <button class="close-btn"><i class="fas fa-times"></i></button>
+                <h4>Get in touch on</h4>
+                <ul>
+                    <li>
+                        <a href="https://www.patreon.com/florinpop17" target="_blank">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/florinpop1705" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/florinpop17" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://facebook.com/florinpop17" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/florinpop17" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="fiveDayContainer">
-            <h1>5 Day Forecast</h1>
-            <div class="fiveDayForecast">
-                <div>
-                    <p>Wed</p>
-                    <img src="/lesson5/images/sunny.svg" alt="icon of the sun">
-                    <h2>76°F</h2>
-                </div>
-                <div>
-                    <p>Thur</p>
-                    <img src="/lesson5/images/partly-cloudy.svg" alt="icon of the sun">
-                    <h2>67°F</h2>
-                </div>
-                <div>
-                    <p>Fri</p>
-                    <img src="/lesson5/images/rainy.svg" alt="icon of the sun">
-                    <h2>53°F</h2>
-                </div>
-                <div>
-                    <p>Sat</p>
-                    <img src="/lesson5/images/partly-cloudy.svg" alt="icon of the sun">
-                    <h2>54°F</h2>
-                </div>
-                <div>
-                    <p>Sun</p>
-                    <img src="/lesson5/images/sunny.svg" alt="icon of the sun">
-                    <h2>64°F</h2>
-                </div>
-            </div>
-        </div>
-        <div class="forecast">
-            <div class="forecastArticle">
-                <h3>Best Hikes In Preston</h3>
-                <p><img src="/lesson5/images/fall-hike.jpg" alt="image of fall trees and mountain" class="topImg">
-                    Each year Preston holds the "Idaho Festival of Lights", which starts the day after Thanksgiving
-                    and goes until December 31. The festival was started by two local business men (Wayne Bell and
-                    Walter Ross) along with many other community organizations to help celebrate Christmas within the
-                    community. The festival consists of a lighted parade, fireworks, and displays in the city park. The
-                    merchants along the main street of Preston have their store fronts decorated with Christmas lights
-                    during the festival.
-                    A key event of the festival is the International Bed Race, which is held on the Saturday following
-                    Thanksgiving on the main street of Preston. Additional events are a kids' parade and free movie.
-                    <img src="/lesson5/images/fall-hike.jpg" alt="image of fall trees and mountain" class="bottomImg">
-                </p>
-                <div class="secondParagraph">
-                    <p>
-                        Logan, located at the south end of the Cache Valley against the Wasatch Range and the dramatic
-                        Wellsville Mountains to the west, is an attractive Western-style college town, well known for
-                        its
-                        scenic beauty and recreation. It is home to Utah State University and a center of Mormon culture
-                        and
-                        history. The economic base extends well beyond the university; a diverse set of businesses have
-                        discovered the area’s pleasant surroundings, good labor force, and low operating costs.
-                        Industries
-                        include high tech, biomedical research, food processing, printing and call centers with names
-                        like
-                        Pepperidge Farms, Moore Business Forms, Herff-Jones (yearbooks) Convergys and Tyco present.
-                    </p>
-                </div>
-            </div>
+        <button class="floating-btn">
+            Get in Touch
+        </button>
+        
+        <div class="floating-text">
+            Part of <a href="https://florin-pop.com/blog/2019/09/100-days-100-projects" target="_blank">#100Days100Projects</a>
         </div>
     </main>
     <div class="contactInfo">
         <h3>Contact Information</h3>
         <div class="info">
-            <img src="/lesson5/images/location.svg" alt="icon of envelope">
+            <img src="/lesson8/images/location.svg" alt="icon of envelope">
             <p>9090 W 3030 N Salt Lake City, UT 80000</p>
         </div>
         <div class="info">
-            <img src="/lesson5/images/email.svg" alt="icon of envelope">
+            <img src="/lesson8/images/email.svg" alt="icon of envelope">
             <p>outdoortemp@myemail.com</p>
         </div>
         <div class="info">
-            <img src="/lesson5/images/phone.svg" alt="icon of envelope">
+            <img src="/lesson8/images/phone.svg" alt="icon of envelope">
             <p>801-909-9090</p>
         </div>
-        <img src="/lesson5/images/city-map.jpg" alt="map of preston idaho" class="smallCityMap">
+        <img src="/lesson8/images/city-map.jpg" alt="map of preston idaho" class="smallCityMap">
     </div>
     <div class="contactInfoLarge">
         <div class="subContactLayer">
-            <img src="/lesson5/images/city-map.jpg" alt="map of preston idaho" class="largeCityMap">
+            <img src="/lesson8/images/city-map.jpg" alt="map of preston idaho" class="largeCityMap">
             <div class="SubInfo">
                 <h3>Contact Information</h3>
                 <div class="infoLarge">
-                    <img src="/lesson5/images/location.svg" alt="icon of location" class="contactInfoIcon">
+                    <img src="/lesson8/images/location.svg" alt="icon of location" class="contactInfoIcon">
                     <p class="address">9090 W 3030 N Salt Lake City, UT 80000</p>
                 </div>
                 <div class="infoLarge">
-                    <img src="/lesson5/images/email.svg" alt="icon of envelope" class="contactInfoIcon">
+                    <img src="/lesson8/images/email.svg" alt="icon of envelope" class="contactInfoIcon">
                     <p>outdoortemp@myemail.com</p>
                 </div>
                 <div class="infoLarge">
@@ -158,9 +161,9 @@
                     <p>801-909-9090</p>
                 </div>
                 <div class="socialMedia">
-                    <img src="/lesson5/images/faceboook.svg" alt="facebook icon">
-                    <img src="/lesson5/images/instagram.svg" alt="instagram icon">
-                    <img src="/lesson5/images/twitter.svg" alt="twitter icon">
+                    <img src="/lesson8/images/faceboook.svg" alt="facebook icon">
+                    <img src="/lesson8/images/instagram.svg" alt="instagram icon">
+                    <img src="/lesson8/images/twitter.svg" alt="twitter icon">
                 </div>
             </div>
         </div>
