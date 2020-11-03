@@ -25,3 +25,19 @@ if (x == 5) {
 else {
    document.getElementById("message").style.display = "none";
 }
+
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}
+
+
+/*##### Form Slider ####*/
+
+var slider = document.getElementById("severity");
+var output = document.getElementById("ouput");
+output.innerHTML = slider.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
