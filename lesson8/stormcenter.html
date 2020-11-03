@@ -85,22 +85,21 @@
                 </div>
 
                 <div class="form-item">
-                    <label>Storm type
-                        <input list="stormtypes" type="list">
+                    <label for="storm-type">Storm region
+                        <select id="storm-region">
+                            <option class="item-1" value=" " disabled>Select Region</option>
+                            <option class="item-2">Thunderstorm</option>
+                            <option class="item-3">Hail</option>
+                            <option class="item-4">Flood</option>
+                            <option class="item-4">Flood</option>
+                        </select>
                     </label>
-                    <datalist id="stormtypes">
-                        <option value="Flash Flood">
-                        <option value="Hail">
-                        <option value="Hurricane">
-                        <option value="Thunderstorm">
-                        <option value="Tornado">
-                    </datalist>
                 </div>
 
                 <div class="form-item">
                     <label>Storm severity
                         <input type="range" step="1" min="1" max="10" id="severity">
-                        <p class="output" id="ouput"></p>
+                        <p class="output" id="output"></p>
                     </label>
                 </div>
 
@@ -120,7 +119,7 @@
                     <label>Yes</label>
                     <input type="radio" id="radio-yes">
                     <label>Maybe</label>
-                    <input type="radio" id="radio-maybe"> 
+                    <input type="radio" id="radio-maybe">
                     <label>No</label>
                     <input type="radio" id="radio-no">
                 </div>

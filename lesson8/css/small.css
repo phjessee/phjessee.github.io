@@ -53,18 +53,6 @@ header img {
 }
 
 
-/*################# Message ######################*/
-
-#message {
-    display: none;
-    text-align: center;
-    background-color: #4b84ac;
-    color: #fff;
-    font-size: 16px;
-    padding: .4rem .3rem;
-}
-
-
 
 /*################# Nav ######################*/
 
@@ -160,7 +148,7 @@ textarea:focus {
 textarea::placeholder {
     color: #c1c1c1;
     padding-left: 8px;
-   padding-top: .2rem;
+    padding-top: .2rem;
 }
 
 input::placeholder {
@@ -237,6 +225,22 @@ button {
     border-radius: 6px;
     font-family: 'Roboto';
     font-weight: 500;
+}
+
+::-webkit-input-placeholder {
+    text-indent: 10px !important;
+}
+
+:-moz-placeholder {
+    text-indent: 10px !important;
+}
+
+::-moz-placeholder {
+    text-indent: 10px !important;
+}
+
+:-ms-input-placeholder {
+    text-indent: 10px !important;
 }
 
 
