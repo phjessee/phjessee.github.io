@@ -31,10 +31,6 @@
         <button onclick="toggleMenu()">&#9776;</button>
     </header>
 
-    <div id="message">
-        <p>Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
-    </div>
-
     <nav class="clearfix">
         <ul id="primaryNav" class="hide">
             <li><a href="#">Home</a></li>
@@ -46,94 +42,48 @@
         </ul>
     </nav>
     <main>
-        <h2>Storm Center</h2>
-        <div class="form-container">
-            <form>
-                <h4>Personal Information</h4>
+        <h1>Storm Center</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">Full Name*:<input type="text" name="fname" pattern="[A-Za-z]" required></label>
+                <label class="top">Email:<input type="email" name="email" placeholder="myemail@email.com"></label>
+                <label class="top">Phone:<input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Zip Code:<input type="text" name="zip" placeholder="12345" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="top">Storm date<input type="date" placeholder="MM/DD/YYYY"></label>
+                <label class="top">Storm Type<input name="storms" list="stormtypes"></label>
+                <datalist id="stormtypes">
+                    <option class="item-1" value="">Select Type &#9662;</option>
+                    <option class="item-2">Thunderstorm</option>
+                    <option class="item-3">Hail</option>
+                    <option class="item-4">Flood</option>
+                    <option class="item-4">Flood</option>
+                </datalist>
+                <label>Storm severity<input type="range" step="1" min="1" max="10" id="severity"></label>
+                <p class="output" id="output"></p>
 
-                <div class="form-item">
-                    <label>Full name
-                        <input type="text" id="fullname" placeholder="Full name" minlength="5" pattern="[A-Za-z]"
-                            required>
-                    </label>
-                </div>
-
-                <div class="form-item">
-                    <label class="label">Email
-                        <input type="email" placeholder="e.g. john@gmail.com" id="email">
-                    </label>
-                </div>
-
-                <div class="form-item">
-                    <label>Phone number
-                        <input type="tel" placeholder="(___)___-____" required id="phonenumber">
-                    </label>
-                </div>
-
-                <div class="form-item">
-                    <label>Zip code
-                        <input type="text" placeholder="e.g.12345" required id="zipcode">
-                    </label>
-                </div>
-
-                <h4>Storm Information</h4>
-
-                <div class="form-item">
-                    <label>Storm date
-                        <input type="date" placeholder="MM/DD/YYYY" id="storm-date">
-                    </label>
-                </div>
-
-                <div class="form-item">
-                    <label for="storm-type">Storm region
-                        <select id="storm-region">
-                            <option class="item-1" value=" " disabled>Select Region</option>
-                            <option class="item-2">Thunderstorm</option>
-                            <option class="item-3">Hail</option>
-                            <option class="item-4">Flood</option>
-                            <option class="item-4">Flood</option>
-                        </select>
-                    </label>
-                </div>
-
-                <div class="form-item">
-                    <label>Storm severity
-                        <input type="range" step="1" min="1" max="10" id="severity">
-                        <p class="output" id="output"></p>
-                    </label>
-                </div>
-
-                <div class="form-item">
-                    <label for="storm-region">Storm region
-                        <select id="storm-region">
-                            <option class="item-1" value=" " disabled>Select Region</option>
-                            <option class="item-2">Preston</option>
-                            <option class="item-3">Soda Springs</option>
-                            <option class="item-4">Fish Haven</option>
-                        </select>
-                    </label>
-                </div>
-
-                <div class="form-item">
-                    <p>Are you in danger?</p>
-                    <label>Yes</label>
-                    <input type="radio" id="radio-yes">
-                    <label>Maybe</label>
-                    <input type="radio" id="radio-maybe">
-                    <label>No</label>
-                    <input type="radio" id="radio-no">
-                </div>
-
-                <div class="form-item ">
-                    <label>
-                        <textarea type="text" placeholder="Any additional comments?" id="comments" rows="4"></textarea>
-                    </label>
-                </div>
-
-                <button>Submit</button>
-
-            </form>
-        </div>
+                <label class="top">
+                    <select>
+                        <option class="item-1" value="">Select Region</option>
+                        <option class="item-2">Preston</option>
+                        <option class="item-3">Soda Springs</option>
+                        <option class="item-4">Flood</option>
+                        <option class="item-4">Flood</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Funding</legend>
+                <div>Are you in danger?</div>
+                <label class="sbs"><input type="radio" name="audience" value="Beginner"> Beginner</label>
+                <label class="sbs"><input type="radio" name="audience" value="Intermediate"> Intermediate</label>
+                <label class="sbs"><input type="radio" name="audience" value="Advanced"> Advanced</label>
+            </fieldset>
+            <input type="submit" value="Propose My Course" class="submitBtn">
+        </form>
     </main>
     <div class="contactInfo">
         <h3>Contact Information</h3>
