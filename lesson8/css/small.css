@@ -139,7 +139,7 @@ textarea,
 select {
     display: block;
     width: 20rem;
-    padding: .8rem;
+    padding: 1rem;
     background-color: #eeeeee;
     border: none;
     border-radius: 6px;
