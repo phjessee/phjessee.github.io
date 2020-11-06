@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Preston home Website page for Paul Jessee WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="shortcut icon" type="image/png" href="/lesson4/images/weather-icon.png">
+    <link rel="shortcut icon" type="image/png" href="/lesson8/images/weather-icon.png">
     <link rel="stylesheet" type="text/css" href="/lesson8/css/small.css">
     <link rel="stylesheet" type="text/css" href="/lesson8/css/medium.css">
     <link rel="stylesheet" type="text/css" href="/lesson8/css/large.css">
@@ -21,7 +20,7 @@
 <body>
     <header>
         <div>
-            <a href="/lesson4/preston-5.html"><img src="/lesson4/images/weather-icon.png"
+            <a href="/lesson5/preston-5.html"><img src="/lesson8/images/weather-icon.png"
                     alt="website logo with sun, mountain and cloud" title="Outdoor Temp logo"></a>
             <div>
                 <h1>Outdoor Temp</h1>
@@ -42,28 +41,31 @@
         </ul>
     </nav>
     <main>
-        <h1>Storm Center</h1>
+        <h1 class="bodyheader">Storm Center</h1>
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Personal Information</legend>
                 <label class="top">Full Name*:<input type="text" name="fname" pattern="[A-Za-z ]+" required></label>
                 <label class="top">Email:<input type="email" name="email" placeholder="myemail@email.com"></label>
-                <label class="top">Phone Number*:<input type="tel" name="phone" placeholder="1235551234" required></label>
-                <label class="top">Zip Code*:<input type="text" name="zip" placeholder="12345" minlength="5" required></label>
+                <label class="top">Phone Number*:<input type="tel" name="phone" placeholder="1235551234"
+                        required></label>
+                <label class="top">Zip Code*:<input type="number" name="zip" placeholder="12345" required></label>
             </fieldset>
             <fieldset>
                 <legend>Storm Information</legend>
-                <label class="top">Storm date<input type="date"></label>
+                <label class="top">Storm date<input type="date" name="date"></label>
                 <label class="top">Storm Type<input name="storms" list="stormtypes"></label>
                 <datalist id="stormtypes">
                     <option class="item-1" value="">Select Type</option>
                     <option class="item-2">Thunderstorm</option>
                     <option class="item-3">Hail</option>
-                    <option class="item-4">Flood</option>
-                    <option class="item-4">Flood</option>
+                    <option class="item-4">Flash Flood</option>
+                    <option class="item-4">Hurricane</option>
+                    <option class="item-5">Tornado</option>
                 </datalist>
-                <label>Storm severity (1= Not Bad - 10= Extremely Bad)</label>
-                <input type="range" step="1" min="1" max="10" id="severity">
+                <label class="sbs">Storm severity (1= Not Bad - 10= Extremely Bad)
+                    <input type="range" step="1" min="1" max="10" id="severity">
+                </label>
                 <p class="output" id="output"></p>
 
                 <label class="top">
@@ -78,9 +80,9 @@
             <fieldset>
                 <legend>Additional Information</legend>
                 <div>Are you in danger?</div>
-                <label class="sbs"><input type="radio" name="audience" value="yes"> Yes</label>
-                <label class="sbs"><input type="radio" name="audience" value="maybe"> Maybe</label>
-                <label class="sbs"><input type="radio" name="audience" value="no"> No</label>
+                <label><input type="radio" name="danger" value="yes"> Yes</label>
+                <label><input type="radio" name="danger" value="maybe"> Maybe</label>
+                <label><input type="radio" name="danger" value="no"> No</label>
                 <label class="top"><textarea placeholder="comments"></textarea></label>
             </fieldset>
             <input type="submit" value="Send Storm Report" class="submitBtn">

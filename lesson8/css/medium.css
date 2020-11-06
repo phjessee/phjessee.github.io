@@ -61,6 +61,11 @@
         width: 200px;
     }
 
+    .sbs {
+        display: flex;
+        flex-direction: column;
+    }
+
     /*########## Contact Information #########*/
 
     .contactInfoLarge {
