@@ -128,12 +128,15 @@ form fieldset {
 form legend {
     padding-top: 1rem;
     font-size: 18px;
+    font-weight: 500;
     color: #333333;
     border-bottom: 2px solid;
     width: 100%;
 }
 
-form label.top input, textarea, select {
+form label.top input,
+textarea,
+select {
     display: block;
     width: 20rem;
     padding: .8rem;
@@ -143,6 +146,10 @@ form label.top input, textarea, select {
     max-width: 80%;
 }
 
+form div {
+    margin: 1rem 0;
+}
+
 form input.submitBtn {
     margin: auto;
     border: none;
@@ -150,7 +157,7 @@ form input.submitBtn {
     color: #fff;
     border-radius: 6px;
     padding: 1rem 2rem;
-    margin: 0 0 2rem 2.7rem;  
+    margin: 0 0 2rem 2.7rem;
 }
 
 form label.top input:required {
@@ -171,23 +178,24 @@ form label.top input:required:valid {
     margin-top: .8rem;
     -webkit-appearance: none;
     appearance: none;
-    width: 21.5rem; 
-    height: 15px; 
-    background: #eeeeee; 
-    outline: none; 
+    width: 21.5rem;
+    height: 15px;
+    background: #eeeeee;
+    outline: none;
     border-radius: 8px;
     max-width: 80%;
-  }
+}
 
-  #severity::-webkit-slider-thumb {
+#severity::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     border-radius: 15px;
     width: 26px;
     height: 26px;
     background: #333333;
-    cursor: pointer; 
-  }
+    cursor: pointer;
+}
+
 /*########### Contact Information ################*/
 
 
