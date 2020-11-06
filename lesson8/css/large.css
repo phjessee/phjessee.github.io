@@ -41,19 +41,10 @@
     }
 
     /*########## Form #########*/
-    
-    form {
-        display: flex;
-        justify-content: center;
-        padding: 0 12rem 4rem 12rem;
-    }
+ 
 
-    .form-item label input {
-        border: 2px solid #eeeeee;
-        padding: .6rem 0;
-        width: 100%;
-        margin-top: .3rem;
-    }
+
+
     
 
     /*########## Contact Info #########*/

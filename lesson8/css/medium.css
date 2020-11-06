@@ -53,10 +53,13 @@
      /*########## Form #########*/
      form {
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        padding: 0 12rem 4rem 12rem;
     }
      
+    form input.submitBtn {
+        width: 200px;
+    }
 
     /*########## Contact Information #########*/
 
