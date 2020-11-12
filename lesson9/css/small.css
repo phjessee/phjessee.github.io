@@ -141,138 +141,24 @@ footer {
     padding: 25px;
 }
 
-/*########### Hero image ################*/
+/*########### Town Data ################*/
 
 
-main .hero-img img {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-}
 
-.hero-img {
-    position: relative;
-}
-
-
-/*########### Weather Summary ################*/
-
-
-.summary {
-    display: flex;
-    justify-content: space-between;
-    background-color: #333333;
-    padding: 10px 12px;
-}
-
-.summary h1 {
-    color: #fff;
-}
-
-.summary p {
-    color: #fff;
-}
-
-.weatherValue {
-    color: #ECD87D;
-    text-align: left;
-}
-
-.secondHalf {
-    padding-top: 30px;
-    padding-right: 12px;
-}
-
-
-/*########### 5 Day Forecast ################*/
-
-
-.fiveDayContainer {
-    max-width: auto;
-    margin: auto;
-}
-
-.fiveDayForecast {
-    display: flex;
-    justify-content: space-around;
-    background-color: #666A86;
-    padding: 1rem .5rem;
-}
-
-.fiveDayForecast div {
-    border: #dadada solid 2px;
-    padding: 0 4%;
-}
-
-.fiveDayForecast div:hover {
-    background-color: #333333;
-    border: 2px solid #333333;
-}
-
-.fiveDayForecast div p {
-    color: #fff;
-    text-align: center;
-    font-size: 14px;
-}
-
-.fiveDayForecast div h2 {
-    color: #fff;
-    text-align: center;
-    font-size: 16px;
-}
-
-.fiveDayForecast div img {
-    margin-left: 0;
-    margin-right: 0;
-    padding-bottom: .5rem;
-}
-
-
-/*########### Article ################*/
-
-.forecast {
-    border: 2px solid #dadada;
-    margin: 1.5rem 0;
-    padding-bottom: 0;
-}
-
-.forecast h1 {
-    text-align: left;
-    background-color: #dadada;
-    color: #333333;
-    padding: 1.5rem 1rem;
-    margin-top: 0;
-}
-
-.forecastArticle {
+section {
+    background-color: #eeeeee;
+    height: 100%;
     padding: 0 1rem;
-    margin-top: 0;
 }
 
-.topImg {
-    display: none;
+p,
+h2, h4 {
+    display: block;
+    text-align: center;
 }
 
-.secondParagraph {
-    display: none;
-}
-
-.bottomImg {
-    max-width: 100%;
-    margin: auto;
-    padding-top: 1rem;
-}
-
-.forecast p {
-    line-height: 1.4rem;
-}
-
-.secondParagraph p {
-    text-indent: 2rem;
-}
-
-.forecastArticle p {
-    text-indent: 2rem;
+p {
+    margin: .5rem;
 }
 
 /*########### Contact Information ################*/
@@ -290,7 +176,7 @@ main .hero-img img {
 }
 
 .info img {
-    padding-right: .5rem;
+    padding: .2rem .5rem;
 }
 
 .smallCityMap {
@@ -304,63 +190,3 @@ main .hero-img img {
     display: none;
 }
 
-
-
-
-
-
-
-
-
-/*########### Xtra small media query ################*/
-
-
-@media only screen and (max-width: 480px) {
-    header p {
-        line-height: 1rem;
-    }
-
-    .summary {
-        margin-top: .3rem;
-        display: block;
-        background-color: #dadada;
-        padding: 5px 12px;
-    }
-
-    .hero-img .summary .secondHalf {
-        padding-top: 0;
-    }
-
-    .summary {
-        margin-top: 0;
-        background-color: #333333;
-        padding: 10px 12px;
-    }
-
-    .summary h1 {
-        color: #fff;
-    }
-
-    .summary p {
-        color: #fff;
-    }
-
-    .weatherValue {
-        color: #ECD87D;
-        text-align: left;
-    }
-
-    .fiveDayForecast {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .fiveDayForecast div {
-        border: 1px solid #dadada;
-        padding: 0 .5rem;
-    }
-
-    .fiveDayForecast div img {
-       height: 30px;
-    }
-}

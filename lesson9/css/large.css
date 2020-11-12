@@ -40,45 +40,9 @@
         max-width: 1020px;
     }
 
+    
 
-    /*########## Weather Summary #########*/
-
-
-    .summary {
-        top: 1.5rem;
-        left: 2rem;
-        padding: 1rem 1.5em;
-        width: 16rem;
-    }
-
-    .summary {
-        padding: 1rem;
-        padding-right: 0rem;
-    }
-
-
-    /*########## Weather Summary #########*/
-
-
-
-    /*########## 5 Day forecast #########*/
-
-    .fiveDayForecast {
-        padding: 1rem 3rem;
-    }
-
-    .fiveDayForecast div {
-        padding: 0 3rem;
-    }
-
-    .fiveDayForecast div h2 {
-        font-size: 20px;
-    }
-
-    .fiveDayForecast div img {
-        height: 50px;
-    }
-
+     /*########## Town Data #########*/
 
 
     /*########## Contact Info #########*/
