@@ -1,16 +1,21 @@
 /*######## Menu Button #####*/
 
-function toggleMenu(){
-    document.getElementById("primaryNav").classList.toggle("hide");
+function toggleMenu() {
+  document.getElementById("primaryNav").classList.toggle("hide");
 }
 
 
 /*######## Footer Date #####*/
 try {
-    const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-    document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', options);
+  const options = {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric'
+  };
+  document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', options);
 } catch (e) {
-    alert('Error with code or your browser does not support Locale');
+  alert('Error with code or your browser does not support Locale');
 }
 
 
@@ -20,55 +25,50 @@ var d = new Date();
 var x = d.getDay();
 
 if (x == 5) {
-    document.getElementById('message').style.display = "block";
-}
-else {
-   document.getElementById("message").style.display = "none";
+  document.getElementById('message').style.display = "block";
+} else {
+  document.getElementById("message").style.display = "none";
 }
 
 
 /*######## JSON for home page #######*/
 
-  const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    //console.table(jsonObject); // temporary checking for valid response and data parsing
     const towns = jsonObject['towns'];
+
     for (let i = 0; i < towns.length; i++) {
       if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
-        let town = document.createElement('section');
-        let info = document.createElement('div');
-        info.className = 'info';
+        let card = document.createElement('section');
         let h2 = document.createElement('h2');
         let motto = document.createElement('h4');
-        let founded = document.createElement('p');
-        let pop = document.createElement('p');
-        let avgRain = document.createElement('p');
-        let img = document.createElement('img');
+        let yearFounded = document.createElement('p');
+        let currentPopulation = document.createElement('p');
+        let avgRainfall = document.createElement('p');
+        let image = document.createElement('img');
 
-        
-        h2.textContent = towns[i].name;
-        motto.textContent = towns[i].motto;
-        founded.textContent = 'Year Founded: ' + towns[i].yearFounded;
-        pop.textContent = 'Population: ' + towns[i].currentPopulation;
-        avgRain.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
-        img.setAttribute('src', 'images/' + towns[i].photo);
-        img.setAttribute('alt', towns[i].name);
-        
-        info.appendChild(h2);
-        info.appendChild(motto);
-        info.appendChild(founded);
-        info.appendChild(pop);
-        info.appendChild(avgRain);
-        town.appendChild(info);
-        town.appendChild(img);
+        h2.textContent = towns[i].name + ' ' + towns[i].name;
+        motto.textContent = 'Motto: ' + towns[i].motto;
+        yearFounded.textContent = 'Year Found: ' + towns[i].yearFounded;
+        currentPopulation.textContent = 'Current Population: ' + towns[i].currentPopulation;
+        avgRainfall.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
+        image.setAttribute('src', 'lesson9/images/' + towns[i].photo);
+        image.setAttribute('alt', towns[i].name);
 
-        document.querySelector('div.towns').appendChild(town);
+        card.appendChild(h2);
+        card.appendChild(motto);
+        card.appendChild(image);
+        card.appendChild(yearFounded);
+        card.appendChild(currentPopulation);
+        card.appendChild(avgRainfall);
+
+        document.querySelector('div.cards').appendChild(card);
       }
     }
+    
   });
