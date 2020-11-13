@@ -53,12 +53,11 @@ fetch(requestURL)
         let image = document.createElement('img');
 
         h2.textContent = towns[i].name + ' ' + towns[i].name;
-        motto.textContent = 'Motto: ' + towns[i].motto;
+        motto.textContent = '' + towns[i].motto;
         yearFounded.textContent = 'Year Found: ' + towns[i].yearFounded;
         currentPopulation.textContent = 'Current Population: ' + towns[i].currentPopulation;
         avgRainfall.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
         image.setAttribute('src', 'lesson9/images/' + towns[i].photo);
-        image.setAttribute('alt', towns[i].name);
 
         card.appendChild(h2);
         card.appendChild(motto);

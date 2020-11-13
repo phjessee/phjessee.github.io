@@ -134,6 +134,11 @@ main {
     text-align: left;
 }
 
+.heroImg img{
+    max-width: 100%;
+    margin: auto;
+}
+
 
 /*################# Footer ##############*/
 
@@ -163,8 +168,10 @@ p:nth-child(6){
     margin: .5rem;
     padding-bottom: 1rem;
 }
-h2 {
-    padding-top: 1rem;
+
+.cards h2 {
+   margin: 0;
+   padding-top: 1rem;
 }
 
 
