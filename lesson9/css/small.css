@@ -130,6 +130,10 @@ main {
     margin-right: 2%;
 }
 
+.main-header {
+    text-align: left;
+}
+
 
 /*################# Footer ##############*/
 
@@ -146,7 +150,6 @@ footer {
 section {
     background-color: #eeeeee;
     height: 100%;
-  
 }
 
 p,
