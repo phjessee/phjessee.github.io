@@ -137,6 +137,7 @@ main {
 .heroImg img{
     max-width: 100%;
     margin: auto;
+
 }
 
 
@@ -188,7 +189,7 @@ p:nth-child(6){
 
 /*########### Article ################*/
 article {
-    margin: 2rem 0;
+    margin: 4rem 0;
 }
 
 article p {

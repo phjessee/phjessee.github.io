@@ -48,23 +48,15 @@
 
     /*########## Town Data #########*/
 
-.cards h2{
-    font-size: 18px;
-}
-
-
-
-    /*########## Article #########*/
-    .article-img {
-        display: block;
-        float: right;
-        margin: 0;
-        max-width: 100%;
-        height: 400px;
-        
+    .cards img {
+        height:250px;
     }
 
-    div.cards {
+    .cards h2{
+        font-size: 24px;
+    }
+
+    .cards  {
         margin-top: 2rem;
         display: grid;
         grid-gap: 10px;
@@ -73,7 +65,32 @@
         justify-content: center;
         align-items: center;
     }
-    
+
+    .cards section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards section p {
+        margin: .5rem;
+        font-size: 15px;
+    }
+
+
+
+
+    /*########## Article #########*/
+
+   
+    .article-img {
+        display: block;
+        float: right;
+        margin: 0;
+        max-width: 100%;
+        height: 400px;
+        padding: 0 0 1rem 1rem;
+    }
+
 
     /*########## Contact Information #########*/
 

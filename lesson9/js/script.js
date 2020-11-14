@@ -53,21 +53,21 @@ fetch(requestURL)
         let avgRainfall = document.createElement('p');
         let image = document.createElement('img');
 
-        h2.textContent = towns[i].name + ' ' + towns[i].name;
-        motto.textContent = '' + towns[i].motto;
+        h2.textContent = towns[i].name + ' ';
+        motto.textContent = towns[i].motto;
         yearFounded.textContent = 'Year Found: ' + towns[i].yearFounded;
         currentPopulation.textContent = 'Current Population: ' + towns[i].currentPopulation;
         avgRainfall.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
         image.setAttribute('src', '/lesson9/images/' + towns[i].photo);
         image.setAttribute('alt', towns[i].name);
 
-        
         card.appendChild(h2);
         card.appendChild(motto);
         card.appendChild(image);
         card.appendChild(yearFounded);
         card.appendChild(currentPopulation);
         card.appendChild(avgRainfall);
+
 
         document.querySelector('div.cards').appendChild(card);
       }
