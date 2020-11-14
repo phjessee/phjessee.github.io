@@ -43,7 +43,15 @@
     
 
      /*########## Town Data #########*/
+     
+     .cards img {
+        height:250px;
+    }
 
+    .cards h2{
+        font-size: 24px;
+    }
+    
 
      /*########## Article #########*/
 

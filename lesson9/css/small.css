@@ -159,7 +159,7 @@ section {
 
 p,
 h2,
-h4 {
+h5 {
     display: block;
     text-align: center;
 }
@@ -172,8 +172,20 @@ p:nth-child(6){
 .cards h2 {
    margin: 0;
    padding-top: 1rem;
+   font-size: 18px;
 }
 
+.cards h5 {
+    margin: 0;
+    padding: .7rem;
+    font-weight: normal
+}
+
+.cards img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*########### Article ################*/
 article {
@@ -194,6 +206,7 @@ article p {
     margin-left: 1rem;
     margin-bottom: 1rem;
 }
+
 
 /*########### Contact Information ################*/
 

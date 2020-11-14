@@ -35,6 +35,7 @@ if (x == 5) {
 
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
+
 fetch(requestURL)
   .then(function (response) {
     return response.json();
@@ -46,7 +47,7 @@ fetch(requestURL)
       if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
-        let motto = document.createElement('h4');
+        let motto = document.createElement('h5');
         let yearFounded = document.createElement('p');
         let currentPopulation = document.createElement('p');
         let avgRainfall = document.createElement('p');
@@ -57,8 +58,10 @@ fetch(requestURL)
         yearFounded.textContent = 'Year Found: ' + towns[i].yearFounded;
         currentPopulation.textContent = 'Current Population: ' + towns[i].currentPopulation;
         avgRainfall.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
-        image.setAttribute('src', 'lesson9/images/' + towns[i].photo);
+        image.setAttribute('src', '/lesson9/images/' + towns[i].photo);
+        image.setAttribute('alt', towns[i].name);
 
+        
         card.appendChild(h2);
         card.appendChild(motto);
         card.appendChild(image);
@@ -69,5 +72,4 @@ fetch(requestURL)
         document.querySelector('div.cards').appendChild(card);
       }
     }
-    
   });
