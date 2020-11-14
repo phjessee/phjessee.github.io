@@ -54,7 +54,9 @@
     
 
      /*########## Article #########*/
-
+.article-img {
+    padding: 0 0 1rem 1rem;
+}
    
     /*########## Contact Info #########*/
 

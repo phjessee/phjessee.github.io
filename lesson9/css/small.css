@@ -183,8 +183,7 @@ p:nth-child(6){
 
 .cards img {
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+   margin: auto;
 }
 
 /*########### Article ################*/
