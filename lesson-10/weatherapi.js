@@ -8,15 +8,18 @@ fetch(apiURL)
         let chill = "N/A";
         document.getElementById('temp').innerHTML = jsObject.weather[0].description;
         document.getElementById('feels').innerHTML = Math.round(t) + "&#8457;";
-        document.getElementById("chill").innerHTML = chill + "&#8457;";
+        document.getElementById("chill").innerHTML = chill + " ";
         document.getElementById('humidity').innerHTML = jsObject.main.humidity + "&#37;";
         document.getElementById('speed').innerHTML = Math.round(s) + " mph";
 
         //calculate windchill
-        if (t <= 50 && s >= 3) {
-            let f = (35.74 + (0.6215 * t)) - (35.75 * (Math.pow(s, 0.16))) + (0.4275 * (t * (Math.pow(s, 0.16))));
+        if (temp >= 50 && speed >= 3) {
+            let f = (35.74 + (0.6215 * t)) - (35.75 * (Math.pow(speed, 0.16))) + (0.4275 * (t * (Math.pow(speed, 0.16))));
             chill = Math.round(f);
-        };
+        }
+        else {
+            chill = "N/A";
+        }
     });
 const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=f59f532633b10d55bbf07be7f8538bff';
 fetch(forecastURL)
@@ -41,3 +44,6 @@ fetch(forecastURL)
         }
 
     });
+
+
+    
