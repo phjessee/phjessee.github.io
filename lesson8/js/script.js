@@ -21,3 +21,14 @@ output.innerHTML = slider.value;
 slider.oninput = function () {
     output.innerHTML = this.value;
 }
+
+/*######## Pancakes Banner #####*/
+
+var d = new Date();
+var x = d.getDay();
+
+if (x == 5) {
+  document.getElementById('message').style.display = "block";
+} else {
+  document.getElementById("message").style.display = "none";
+}
