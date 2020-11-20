@@ -157,7 +157,9 @@ section {
     background-color: #eeeeee;
     height: 100%;
 }
-
+.cards{
+    padding-top: 1.5rem;
+}
 p,
 h2,
 h5 {
@@ -207,6 +209,13 @@ article p {
     margin-bottom: 1rem;
 }
 
+.article::first-letter {
+    font-size: 42px;
+    font-weight: bolder;
+}
+ article h3 {
+     margin-bottom: 2rem;
+ }
 
 /*########### Contact Information ################*/
 

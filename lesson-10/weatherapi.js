@@ -34,7 +34,7 @@ fetch(forecastURL)
 
         for (let day = 0; day < forecast.length; day++) {
             const d = new Date(forecast[day].dt_txt);
-            const imgSrc = 'https://openweathermap.org/img/wn/' + forecast[day].weather[0].icon + '@1x.png';
+            const imgSrc = 'https://openweathermap.org/img/w/' + forecast[day].weather[0].icon + '@1x.png';
             const desc = forecast[day].weather[0].description;
 
             document.getElementById(`dayofweek${day+1}`).textContent = weekdays[d.getDay()];
