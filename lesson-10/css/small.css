@@ -50,6 +50,10 @@ header img {
     border-radius: 100%;
 }
 
+header div p {
+    text-align: left;
+}
+
 
 /*################# Message ######################*/
 
