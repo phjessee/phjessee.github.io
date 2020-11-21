@@ -192,7 +192,6 @@ main .hero-img img {
 
 
 .fiveDayContainer {
-    max-width: auto;
     margin: auto;
 }
 
@@ -210,7 +209,6 @@ main .hero-img img {
 
 .fiveDayForecast div:hover {
     background-color: #333333;
-    border: 2px solid #333333;
 }
 
 .fiveDayForecast div p {
