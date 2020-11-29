@@ -134,9 +134,9 @@ main {
     margin-right: 2%;
 }
 
-   /*########## Events #########*/
+/*########## Events #########*/
 
-   .events div {
+.events div {
     background-color: #666A89;
     padding: .5rem 1rem;
     color: white;
@@ -375,6 +375,6 @@ main .hero-img img {
     }
 
     .fiveDayForecast div img {
-       height: 30px;
+        height: 30px;
     }
 }
