@@ -134,6 +134,18 @@ main {
     margin-right: 2%;
 }
 
+   /*########## Events #########*/
+
+   .events div {
+    background-color: #666A89;
+    padding: .5rem 1rem;
+    color: white;
+}
+
+.events h3 {
+    margin-bottom: .4rem;
+}
+
 
 /*################# Footer ##############*/
 

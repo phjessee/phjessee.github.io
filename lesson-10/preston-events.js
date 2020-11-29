@@ -10,7 +10,7 @@
           .then(function (jsonObject) {
               const town = jsonObject['towns'];
               const filtered = town.filter(town => (town.name == city));
-              let paragraph = document.createElement('p');
+              let paragraph = document.createElement('div');
   
               for (let i = 0; i < filtered[0].events.length; i++) {
                   let cityHtml = document.getElementsByClassName("city");
