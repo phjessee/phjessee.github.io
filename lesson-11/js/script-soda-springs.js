@@ -13,7 +13,7 @@ fetch(apiURL)
         document.getElementById('speed').innerHTML = Math.round(s) + " mph";
 
         //calculate windchill
-        if (temp >= 50 && speed >= 3) {
+        if (temp <= 50 && speed >= 3) {
             let f = (35.74 + (0.6215 * t)) - (35.75 * (Math.pow(speed, 0.16))) + (0.4275 * (t * (Math.pow(speed, 0.16))));
             chill = Math.round(f);
         } else {
@@ -42,7 +42,5 @@ fetch(forecastURL)
             document.getElementById(`forecast${day+1}`).textContent = Math.round(forecast[day].main.temp);
             document.getElementById(`icon${day+1}`).setAttribute('src', imgSrc);
             document.getElementById(`icon${day+1}`).setAttribute('alt', desc);
-
         }
-
     });
