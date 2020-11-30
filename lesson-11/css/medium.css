@@ -68,15 +68,29 @@
         flex-direction: row;
         margin-top: 1rem;
         background-color: #eee;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .card section:nth-child(even) {
+        flex-direction: row-reverse;
     }
 
     .cards img {
-        width: 350px;
+        width: 400px;
+    }
+
+    .townInfo {
+        margin-left: 1rem;
+        width: 50%;
+    }
+
+    .townInfo h2, h3, p {
+        text-align: center;
     }
 
     .cards section p {
-        justify-content: space-between;
-        
+        margin: .5rem;
         font-size: 12px;
     }
 

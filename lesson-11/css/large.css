@@ -64,6 +64,9 @@
         
     }
 
+    .cards section .townInfo {
+        margin-left: 25%;
+    }
     .cards section {
         display: flex;
         flex-direction: column;

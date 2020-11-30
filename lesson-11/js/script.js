@@ -52,6 +52,8 @@ fetch(requestURL)
         let currentPopulation = document.createElement('p');
         let avgRainfall = document.createElement('p');
         let image = document.createElement('img');
+        let divInfo = document.createElement('div');
+        let divImg = document.createElement('div');
 
         h2.textContent = towns[i].name + ' ';
         motto.textContent = towns[i].motto;
@@ -60,16 +62,22 @@ fetch(requestURL)
         avgRainfall.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
         image.setAttribute('src', '/lesson9/images/' + towns[i].photo);
         image.setAttribute('alt', towns[i].name);
+        divInfo.setAttribute('class', 'townInfo');
+        divImg.setAttribute('class', 'townImg');
 
-        card.appendChild(h2);
-        card.appendChild(motto);
-        card.appendChild(image);
-        card.appendChild(yearFounded);
-        card.appendChild(currentPopulation);
-        card.appendChild(avgRainfall);
+        divInfo.appendChild(h2);
+        divInfo.appendChild(motto);
+        divImg.appendChild(image);
+        divInfo.appendChild(yearFounded);
+        divInfo.appendChild(currentPopulation);
+        divInfo.appendChild(avgRainfall);
+        card.appendChild(divInfo);
+        card.appendChild(divImg);
 
 
         document.querySelector('div.cards').appendChild(card);
       }
     }
   });
+
+
