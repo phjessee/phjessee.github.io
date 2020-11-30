@@ -72,9 +72,15 @@
         flex-direction: column;
     }
 
+    .cards h5 {
+        font-size: 14px;
+        font-weight: bold;
+        padding: .5rem 0;
+    }
+
     .cards section p {
         margin: .5rem;
-        font-size: 15px;
+        font-size: 13px;
     }
      
     
