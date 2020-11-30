@@ -85,15 +85,18 @@
         width: 50%;
     }
 
-    .townInfo h2, h3, p {
-        text-align: center;
+    .townInfo p {
+        margin: 1rem 0 0 0;
+        font-size: 14px;
     }
 
-    .cards section p {
-        margin: .5rem;
-        font-size: 12px;
+    .townInfo h5 {
+        font-size: 16px;
     }
 
+    section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
 
 
 
