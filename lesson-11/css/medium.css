@@ -49,31 +49,35 @@
     /*########## Town Data #########*/
 
     .cards img {
-        height:250px;
+        height: 250px;
     }
 
-    .cards h2{
+    .cards h2 {
         font-size: 24px;
     }
 
-    .cards  {
-        margin-top: 2rem;
-        display: grid;
-        grid-gap: 10px;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        justify-content: center;
-        align-items: center;
+    .cards {
+        margin: .5rem auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 0;
     }
 
     .cards section {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        margin-top: 1rem;
+        background-color: #eee;
+    }
+
+    .cards img {
+        width: 350px;
     }
 
     .cards section p {
-        margin: .5rem;
-        font-size: 15px;
+        justify-content: space-between;
+        
+        font-size: 12px;
     }
 
 
@@ -81,7 +85,7 @@
 
     /*########## Article #########*/
 
-   
+
     .article-img {
         display: block;
         float: right;
