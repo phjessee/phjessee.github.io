@@ -2,7 +2,7 @@
 
 
 
-    
+
 /*----------- NAVIGATION -----------*/
     nav ul li {
         margin: 0 10px;
@@ -13,7 +13,33 @@
         padding: 1rem 2rem;
     }
 
-   
+    .logo{
+    float: left;
+    padding: 1rem;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+    }
+
+
+
+
+
+/*----------- HERO IMAGE -----------*/
+    h1 {
+        font-size: 52px;
+        color: #008BC9;
+    }
+
+   .headline h4 {
+    font-size: 34px;
+}
+
+
+/*----------- NAVIGATION -----------*/
+
+
 
 
 

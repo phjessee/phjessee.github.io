@@ -1,21 +1,23 @@
-h1 {
-    font-family: 'Bebas Nueu', sans-serif;
-    font-size: 18px;
-}
-
-p,
+h1,
 h6,
 h5,
 h4,
 h3,
-h2,
-button{
+h2 {
+    font-family: 'Bebas Nueu', sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+    color: #008BC9;
+}
+
+p,
+
+button {
     font-family: 'Lato', sans-serif;
 }
 
-body {
-    margin: .5rem;
-}
 
 /*----------- NAVIGATION -----------*/
 nav {
@@ -36,7 +38,7 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #008BC9;
 }
 
 nav ul li a:hover {
@@ -48,11 +50,28 @@ nav ul li {
     margin: 15px;
 }
 
+.nav {
+    background-color: #ffffff;
+}
+
+.logo {
+    padding: .5rem;
+}
+
+nav button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
 .selected {
     font-weight: bolder;
 }
 
-
+.hide {
+    display: none;
+}
 
 
 
@@ -62,6 +81,18 @@ nav ul li {
     display: table;
     clear: both;
 }
+
+
+
+
+
+/*------ MAIN --------*/
+
+main {
+    background-color: #E6EDF0;
+}
+
+
 
 
 /*----------- HERO IMAGE -----------*/
@@ -76,14 +107,58 @@ nav ul li {
     width: 100%;
 }
 
+.headline {
+    position: absolute;
+    left: 70%;
+}
+
+.headline h4 {
+    margin-top: 0;
+    color: #008BC9;
+}
+
 .ctaBtn {
     position: absolute;
     top: 80%;
-    left: 35%;
+    left: 30%;
     border: 2px solid #008Bc9;
     padding: .5rem 2rem;
     border-radius: 4px;
     color: #008BC9;
     background-color: #ffffff;
     font-weight: bold;
+}
+
+/*----------- RENTAL TYPES -----------*/
+.rentals {
+    margin: 1rem .5rem;
+}
+
+.rental-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    text-align: left;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.card-info {
+    margin: 0 .8rem;
+}
+
+.card-price {
+    display: grid;
+    justify-content: ;
+}
+
+.card-price p {
+    margin-top: 0;
+}
+
+.card-price h4 {
+    margin: 0 0 .5rem 0;
+}
+
+.walk-price {
+    margin-top: .7rem;
 }
