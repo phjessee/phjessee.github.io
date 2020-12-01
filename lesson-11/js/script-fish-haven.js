@@ -3,6 +3,20 @@ function toggleMenu() {
   }
 
 
+    /*######## Footer Date #####*/
+try {
+    const options = {
+      weekday: 'long',
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    };
+    document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', options);
+  } catch (e) {
+    alert('Error with code or your browser does not support Locale');
+  }
+
+
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=42.0380399&lon=-111.4048681&appid=f59f532633b10d55bbf07be7f8538bff&units=imperial';
 fetch(apiURL)
     .then((response) => response.json())

@@ -2,6 +2,19 @@ function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
   }
 
+  /*######## Footer Date #####*/
+try {
+    const options = {
+      weekday: 'long',
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    };
+    document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', options);
+  } catch (e) {
+    alert('Error with code or your browser does not support Locale');
+  }
+
 
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=f59f532633b10d55bbf07be7f8538bff&units=imperial';
 fetch(apiURL)
