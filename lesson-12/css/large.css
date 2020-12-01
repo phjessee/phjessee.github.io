@@ -1,0 +1,21 @@
+@media only screen and (min-width: 960px) {
+
+
+
+    
+/*----------- NAVIGATION -----------*/
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        padding: 1rem 2rem;
+    }
+
+   
+
+
+
+}
+

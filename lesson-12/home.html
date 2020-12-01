@@ -5,23 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="shortcut icon" type="image/png" href="/lesson-12/images/favicon.png">
+    <link rel="stylesheet" href="/lesson-12/css/small.css">
+    <link rel="stylesheet" href="/lesson-12/css/medium.css">
+    <link rel="stylesheet" href="/lesson-12/css/large.css">
     <title>Scoot</title>
 </head>
 <header></header>
 <nav class="clearfix">
     <ul id="primaryNav" class="hide">
-        <li><a href="#">Home</a></li>
+        <li><a href="#" class="selected">Home</a></li>
         <li><a href="#">Rentals</a></li>
         <li><a href="#">Reservations</a></li>
-        <li><a href="#" class="selected">Tours</a></li>
+        <li><a href="#">Tours</a></li>
         <li><a href="#">Contact</a></li>
     </ul>
 </nav>
+<div class="heroImg">
+    <picture>
+        <h1>Explore your vacation</h1>
+        <h4>Scoots has you covered</h4>
+        <source media="(max-width: 450px)" srcset="/lesson-12/images/hero-image-small.jpg">
+        <source media="(max-width: 800px)" srcset="/lesson-12/images/hero-image-medium.jpg">
+        <source media="(max-width: 1100px)" srcset="/lesson-12/images/hero-image-large.jpg">
+        <img src="/lesson-12/images/hero-image-large.jpg" alt="hero image">
+    </picture>
+    
+    <button class="ctaBtn">GET RENTAL NOW!</button>
+</div>
 
 <body>
     <main>
-        <button>Call to action</button>
-        <img src="/lesson-12/images/hero-image.jpg" alt="hiker in the wilderness">
+
         <div class="rentals">
             <h3>Type of Rentals</h3>
             <div>

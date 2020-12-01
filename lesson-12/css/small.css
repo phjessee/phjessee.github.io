@@ -1,0 +1,89 @@
+h1 {
+    font-family: 'Bebas Nueu', sans-serif;
+    font-size: 18px;
+}
+
+p,
+h6,
+h5,
+h4,
+h3,
+h2,
+button{
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: .5rem;
+}
+
+/*----------- NAVIGATION -----------*/
+nav {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #008BC9;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #008BC9;
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+.selected {
+    font-weight: bolder;
+}
+
+
+
+
+
+/*------ CLEAR FIX --------*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*----------- HERO IMAGE -----------*/
+
+.heroImg {
+    position: relative;
+}
+
+.heroImg img {
+    max-width: 100%;
+    margin: auto;
+    width: 100%;
+}
+
+.ctaBtn {
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    border: 2px solid #008Bc9;
+    padding: .5rem 2rem;
+    border-radius: 4px;
+    color: #008BC9;
+    background-color: #ffffff;
+    font-weight: bold;
+}
