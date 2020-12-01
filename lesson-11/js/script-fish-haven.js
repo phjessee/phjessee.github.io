@@ -1,3 +1,8 @@
+function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("hide");
+  }
+
+
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=42.0380399&lon=-111.4048681&appid=f59f532633b10d55bbf07be7f8538bff&units=imperial';
 fetch(apiURL)
     .then((response) => response.json())

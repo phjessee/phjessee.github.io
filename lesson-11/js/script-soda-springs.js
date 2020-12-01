@@ -1,3 +1,8 @@
+function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("hide");
+  }
+
+
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=f59f532633b10d55bbf07be7f8538bff&units=imperial';
 fetch(apiURL)
     .then((response) => response.json())
