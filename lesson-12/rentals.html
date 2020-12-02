@@ -4,29 +4,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="shortcut icon" type="image/png" href="/lesson-12/images/favicon.png">
+    <link rel="stylesheet" href="/lesson-12/css/small.css">
+    <link rel="stylesheet" href="/lesson-12/css/medium.css">
+    <link rel="stylesheet" href="/lesson-12/css/large.css">
     <title>Rentals</title>
 </head>
+<nav class="clearfix">
+    <img src="/lesson-12/images/scoots-logo.png" class="logo">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide, nav">
+        <li><a href="#" class="selected">Home</a></li>
+        <li><a href="#">Rentals</a></li>
+        <li><a href="#">Reservations</a></li>
+        <li><a href="#">Tours</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
 
 <body>
     <main>
-        <div class="rentals">
-            <h3>Type of Rentals</h3>
-            <div>
-                <h4>Honda Motor Scooters</h4>
-                Honda Metropolitan (49cc) - 1 person
-                Honda Dio (110cc) - 2 person
-                Honda PCX150 (149cc) - 2 person
+        <section class="rentals">
+            <div class="rental-card">
+                <img src="/lesson-12/images/honda-metro.jpg" alt="honda moped" style="width:100%">
+                <h3>Honda Metro</h3>
+                <div class="card-info">
+                    <div class="card-price">
+                        <div class="res-price">
+                            <h4>Reservation Price</h4>
+                            <p class="price">Half Day(3hrs): $20.00</p>
+                            <p class="price">Full Day: $30.00</p>
+                        </div>
+                        <div class="walk-price">
+                            <h4>Walk-in Price</h4>
+                            <p class="price">Half Day(3hrs): $25.00</p>
+                            <p class="price">Full Day: $35.00</p>
+                        </div>
+                    </div>
+                    <p class="card-details">The Honda Metro is a classic moped. With great gas mileage, comfort and ease
+                        of use, the Hond
+                        Metro is perfect for the casual tourist.</p>
+                </div>
+                <button>Rent Now</button>
             </div>
-            <div>
-                <h4>ATV Side-by-Side</h4>
-                Honda Pioneer 1000
+
+            <div class="rental-card">
+                <img src="/lesson-12/images/honda-dio.jpg" alt="honda moped" style="width:100%">
+                <h3>Honda Metro</h3>
+                <div class="card-info">
+                    <div class="card-price">
+                        <div class="res-price">
+                            <h4>Reservation Price</h4>
+                            <p class="price">Half day(3hrs): $19.99</p>
+                            <p class="price">$19.99</p>
+                        </div>
+                        <div class="walk-price">
+                            <h4>Walk-in Price</h4>
+                            <p class="price">$19.99</p>
+                            <p class="price">$19.99</p>
+                        </div>
+                    </div>
+                    <p class="card-details">The Honda Metro is a classic moped. With great gas mileage, comfort and ease
+                        of use, the Hond
+                        Metro is perfect for the casual tourist.</p>
+                </div>
+                <button>Rent Now</button>
             </div>
-            <div>
-                <h4>Jeep Rentals</h4>
-                4-door Jeep Wrangler - manual with A/C - 5 people max
-                2-door Jeep Wrangler - open air - manual - 4 people max
+
+            <div class="rental-card">
+                <img src="/lesson-12/images/honda-pcx.jpg" alt="honda moped" style="width:100%">
+                <h3>Honda Metro</h3>
+                <div class="card-info">
+                    <div class="card-price">
+                        <div class="res-price">
+                            <h4>Reservation Price</h4>
+                            <p class="price">Half day(3hrs): $19.99</p>
+                            <p class="price">$19.99</p>
+                        </div>
+                        <div class="walk-price">
+                            <h4>Walk-in Price</h4>
+                            <p class="price">$19.99</p>
+                            <p class="price">$19.99</p>
+                        </div>
+                    </div>
+                    <p class="card-details">The Honda Metro is a classic moped. With great gas mileage, comfort and ease
+                        of use, the Hond
+                        Metro is perfect for the casual tourist.</p>
+                </div>
+                <button>Rent Now</button>
             </div>
-        </div>
+
+            <div class="rental-card">
+                <img src="/lesson-12/images/honda-pioneer.jpg" alt="honda moped" style="width:100%">
+                <h3>Honda Metro</h3>
+                <div class="card-info">
+                    <div class="card-price">
+                        <div class="res-price">
+                            <h4>Reservation Price</h4>
+                            <p class="price">Half day(3hrs): $19.99</p>
+                            <p class="price">$19.99</p>
+                        </div>
+                        <div class="walk-price">
+                            <h4>Walk-in Price</h4>
+                            <p class="price">$19.99</p>
+                            <p class="price">$19.99</p>
+                        </div>
+                    </div>
+                    <p class="card-details">The Honda Metro is a classic moped. With great gas mileage, comfort and ease
+                        of use, the Hond
+                        Metro is perfect for the casual tourist.</p>
+                </div>
+                <button>Rent Now</button>
+            </div>
+
+            <div class="rental-card">
+                <img src="/lesson-12/images/jeep-2.jpg" alt="honda moped" style="width:100%">
+                <h3>Jeep Wrangler 2-door</h3>
+                <div class="card-info">
+                    <div class="card-price">
+                        <div class="res-price">
+                            <h4>Reservation Price</h4>
+                            <p class="price">Half day(3hrs): $19.99</p>
+                            <p class="price">$19.99</p>
+                        </div>
+                        <div class="walk-price">
+                            <h4>Walk-in Price</h4>
+                            <p class="price">$19.99</p>
+                            <p class="price">$19.99</p>
+                        </div>
+                    </div>
+                    <p class="card-details">The Honda Metro is a classic moped. With great gas mileage, comfort and ease
+                        of use, the Hond
+                        Metro is perfect for the casual tourist.</p>
+                </div>
+                <button>Rent Now</button>
+            </div>
+
+            <div class="rental-card">
+                <img src="/lesson-12/images/jeep-4.jpg" alt="honda moped" style="width:100%">
+                <h3>Jeep Wrangler 4-door</h3>
+                <div class="card-info">
+                    <div class="card-price">
+                        <div class="res-price">
+                            <h4>Reservation Price</h4>
+                            <p class="price">Half day(3hrs): $19.99</p>
+                            <p class="price">$19.99</p>
+                        </div>
+                        <div class="walk-price">
+                            <h4>Walk-in Price</h4>
+                            <p class="price">$19.99</p>
+                            <p class="price">$19.99</p>
+                        </div>
+                    </div>
+                    <p class="card-details">The Honda Metro is a classic moped. With great gas mileage, comfort and ease
+                        of use, the Hond
+                        Metro is perfect for the casual tourist.</p>
+                </div>
+                <button>Rent Now</button>
+            </div>
+        </section>
     </main>
 </body>
 
