@@ -142,6 +142,20 @@ main {
     font-weight: bold;
 }
 
+
+
+
+
+/*----------- SOCIAL MEDIA -----------*/
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    margin: auto;
+    margin-top: .5rem;
+}
+
+
 /*----------- RENTAL TYPES -----------*/
 .rentals {
     display: grid;
