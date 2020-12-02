@@ -175,13 +175,13 @@ main {
 }
 
 .rental-card button {
-    max-width: 100%;
     border: none;
-    margin: 1rem;
     padding: .5rem 2rem;
     background-color: #008BC9;
     color: #ffffff;
-    border-radius: 4px;
+    width: 100%;
+    margin: .5rem 0 0 0;
+    border-radius: 0 0 4px 4px;
 }
 
 .rental-card img {
@@ -191,7 +191,7 @@ main {
 .rental-card h3 {
     background-color: #E6EDF0;
     margin: -.25rem 0;
-    padding: 1rem;
+    padding: 1rem .5rem;
 }
 
 .card-details {
@@ -199,7 +199,7 @@ main {
 }
 
 .card-info {
-    margin: .8rem .8rem;
+    margin: .8rem .8rem 0 .8rem;
 }
 
 .card-price {
