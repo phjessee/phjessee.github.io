@@ -41,10 +41,27 @@
 
 
 
-  /*----------- HERO IMAGE -----------*/
+    /*----------- HERO IMAGE -----------*/
+
+    .headline h1 {
+        font-size: 28px;
+    }
+
+    .headline h4 {
+        font-size: 20px;
+    }
 
     .ctaBtn {
         top: 80%;
-        left: 35%;
+        left: 36%;
+        padding: 1rem 2rem;
+    }
+
+
+    .social-media {
+        padding: 1rem 12rem;
+    }
+    #fb-icon, #inst-icon, #twit-icon {
+        height: 40px;
     }
 }

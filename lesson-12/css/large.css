@@ -1,13 +1,13 @@
 @media only screen and (min-width: 960px) {
 
-/*----------- MAIN -----------*/
+    /*----------- MAIN -----------*/
 
-main {
-    max-width: 1020px;
-    margin: auto;
-}
+    main {
+        max-width: 1020px;
+        margin: auto;
+    }
 
-/*----------- NAVIGATION -----------*/
+    /*----------- NAVIGATION -----------*/
     nav ul li {
         margin: 0 10px;
     }
@@ -17,9 +17,10 @@ main {
         padding: 1rem 2rem;
     }
 
-    .logo{
-    float: left;
-    padding: 1rem;
+    .logo {
+        float: left;
+        height: 37px;
+        margin-left: 3rem;
     }
 
     nav ul li a {
@@ -30,22 +31,34 @@ main {
 
 
 
-/*----------- HERO IMAGE -----------*/
-    h1 {
-        font-size: 52px;
-        color: #008BC9;
+    /*----------- HERO IMAGE -----------*/
+    .headline h1 {
+        font-size: 48px;
     }
 
-   .headline h4 {
-    font-size: 34px;
+    .headline h4 {
+        font-size: 34px;
+    }
+
+    .ctaBtn {
+        left: 46%;
+        margin: 0 2rem 0 0;
+    }
+
+    /*----------- NAVIGATION -----------*/
+
+
+
+
+    /*----------- SOCIAL MEDIA -----------*/
+    .social-media {
+        padding: 1rem 15rem;
+    }
+
+    #fb-icon,
+    #inst-icon,
+    #twit-icon {
+        height: 50px;
+    }
+
 }
-
-
-/*----------- NAVIGATION -----------*/
-
-
-
-
-
-}
-

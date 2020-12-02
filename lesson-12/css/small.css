@@ -92,8 +92,9 @@ nav .hide {
 
 /*------ MAIN --------*/
 
-main {
+body {
     background-color: #E6EDF0;
+    width: 100%;
 }
 
 
@@ -148,11 +149,11 @@ main {
 
 /*----------- SOCIAL MEDIA -----------*/
 .social-media {
+    background-color: #ffffff;
     display: flex;
-    justify-content: space-between;
-    max-width: 50%;
-    margin: auto;
-    margin-top: .5rem;
+    justify-content: space-around;
+    margin-top: -.2rem;
+    padding: 1rem 5rem
 }
 
 
@@ -162,7 +163,6 @@ main {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 4fr;
     grid-gap: 10px;
-    
     margin: 1rem .5rem;
 }
 

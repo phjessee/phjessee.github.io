@@ -32,16 +32,16 @@
                 <h4>Scoots has you covered</h4>
             </div>
             <source media="(max-width: 450px)" srcset="/lesson-12/images/hero-image-small.jpg">
-            <source media="(max-width: 800px)" srcset="/lesson-12/images/hero-image-medium.jpg">
+            <source media="(max-width: 960px)" srcset="/lesson-12/images/hero-image-medium.jpg">
             <source media="(max-width: 1100px)" srcset="/lesson-12/images/hero-image-large.jpg">
             <img src="/lesson-12/images/hero-image-large.jpg" alt="hero image">
         </picture>
         <button class="ctaBtn">GET RENTAL NOW!</button>
     </div>
     <div class="social-media">
-        <img id="fb-icon" src="/lesson-12/images/facebook-icon.png" alt="facebook icon">
-        <img id="inst-icon" src="/lesson-12/images/instagram-icon.png" alt="instagram icon">
-        <img id="twit-icon" src="/lesson-12/images/twitter-icon.png" alt="twitter icon">
+        <a href="#"><img id="fb-icon" src="/lesson-12/images/facebook-icon.png" alt="facebook icon"></a>
+        <a href="#"><img id="inst-icon" src="/lesson-12/images/instagram-icon.png" alt="instagram icon"></a>
+        <a href="#"><img id="twit-icon" src="/lesson-12/images/twitter-icon.png" alt="twitter icon"></a>
     </div>
     <main>
         <section class="rentals">
@@ -183,9 +183,36 @@
                 <button>Rent Now</button>
             </div>
         </section>
-        <section>
-            <h2 class="forecast">Weather Forecast</h2>
-        </section>
+        <div class="fiveDayContainer">
+            <h1>5 Day Forecast</h1>
+            <div class="fiveDayForecast">
+                <div>
+                    <p id="dayofweek1"></p>
+                    <img id="icon1" src="#" alt="unknown">
+                    <h2 id="forecast1"></h2>
+                </div>
+                <div>
+                    <p id="dayofweek2"></p>
+                    <img id="icon2" src="#" alt="unknown">
+                    <h2 id="forecast2"></h2>
+                </div>
+                <div>
+                    <p id="dayofweek3"></p>
+                    <img id="icon3" src="#" alt="unknown">
+                    <h2 id="forecast3"></h2>
+                </div>
+                <div>
+                    <p id="dayofweek4"></p>
+                    <img id="icon4" src="#" alt="unknown">
+                    <h2 id="forecast4"></h2>
+                </div>
+                <div>
+                    <p id="dayofweek5"></p>
+                    <img id="icon5" src="#" alt="unknown">
+                    <h2 id="forecast5"></h2>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <img src="#" alt="image" class="">
