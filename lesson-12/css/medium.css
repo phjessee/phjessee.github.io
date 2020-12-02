@@ -1,12 +1,12 @@
 @media only screen and (min-width: 680px) {
 
-body {
-    margin: 0;
-}
+    body {
+        margin: 0;
+    }
 
 
 
-/*----------- NAVIGATION -----------*/
+    /*----------- NAVIGATION -----------*/
     nav ul li {
         margin: 0;
     }
@@ -15,7 +15,7 @@ body {
         flex-direction: row;
     }
 
-    .hide {
+    nav .hide {
         display: flex;
     }
 
@@ -35,7 +35,9 @@ body {
         color: #008BC9;
     }
 
-
+    nav button {
+        visibility: hidden;
+    }
 
 
 
