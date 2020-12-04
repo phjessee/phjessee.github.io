@@ -61,7 +61,23 @@
     .social-media {
         padding: 1rem 12rem;
     }
-    #fb-icon, #inst-icon, #twit-icon {
+
+    #fb-icon,
+    #inst-icon,
+    #twit-icon {
         height: 40px;
+    }
+
+    .summaries-container {
+        max-width: 1280px;
+        margin: auto;
+        padding: 1rem;
+    }
+
+    .summaries {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 12px;
+        
     }
 }

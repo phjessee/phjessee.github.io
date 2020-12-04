@@ -4,6 +4,10 @@ function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
   }
 
+
+
+/*------ Forecast -------*/
+
   const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=20.4230&lon=-86.9223&units=imperial&appid=f59f532633b10d55bbf07be7f8538bff';
 fetch(forecastURL)      
     .then((response) => response.json())

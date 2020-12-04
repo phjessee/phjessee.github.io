@@ -2,10 +2,6 @@
 
     /*----------- MAIN -----------*/
 
-    main {
-        
-        margin: auto;
-    }
 
     /*----------- NAVIGATION -----------*/
     nav ul li {
@@ -61,19 +57,59 @@
         height: 50px;
     }
 
+
+
+
+
+    /*----------- summaries -----------*/
     .summaries {
-        display: flex;
-        justify-content: space-around;
-        margin: 8rem 0;
-        margin-left: 10%;
-        margin-right: 10%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 12px;
     }
 
-    .summaries div {
-        margin: 0 2rem;
-    }
-    .summary-1, .summary-2, .summary-3 {
-        margin: 0;
+
+
+/*----------- rentals -----------*/
+    .rentals {
+        grid-template-columns: repeat(3, 1fr);
     }
 
+    .rental-info {
+        max-width: 1040px;
+        margin: auto;
+    }
+
+
+
+
+
+
+
+    /*----------- Footer -----------*/
+    .contact-info {
+        max-width: 1040px;
+        margin: auto;
+    }
+
+    .contact-container h2 {
+        display: block;
+        text-align: center;
+        margin: 0 0 3rem 0;
+    }
+
+    .phone img,
+    .address img,
+    .email img {
+        height: 38px;
+    }
+
+    .email img {
+        width: 46px;
+    }
+
+    .address img {
+        height: 46px;
+        width: 34px;
+    }
 }

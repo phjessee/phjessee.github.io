@@ -16,11 +16,11 @@
     <img src="/lesson-12/images/scoots-logo.png" class="logo">
     <button onclick="toggleMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide, nav">
-        <li><a href="#" class="selected">Home</a></li>
-        <li><a href="#">Rentals</a></li>
-        <li><a href="#">Reservations</a></li>
-        <li><a href="#">Tours</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="/lesson-12/home.html" class="selected">Home</a></li>
+        <li><a href="/lesson-12/rentals.html">Rentals</a></li>
+        <li><a href="/lesson-12/reservations.html">Reservations</a></li>
+        <li><a href="/lesson-12/tours.html">Tours</a></li>
+        <li><a href="/lesson-12/contact.html">Contact</a></li>
     </ul>
 </nav>
 
@@ -36,7 +36,7 @@
             <source media="(max-width: 1100px)" srcset="/lesson-12/images/hero-image-large.jpg">
             <img src="/lesson-12/images/hero-image-large.jpg" alt="hero image">
         </picture>
-        <button class="ctaBtn">GET RENTAL NOW!</button>
+        <a href="/lesson-12/rentals.html"><button class="ctaBtn">GET RENTAL NOW!</button></a>
     </div>
     <div class="social-media">
         <a href="#"><img id="fb-icon" src="/lesson-12/images/facebook-icon.png" alt="facebook icon"></a>
@@ -44,29 +44,39 @@
         <a href="#"><img id="twit-icon" src="/lesson-12/images/twitter-icon.png" alt="twitter icon"></a>
     </div>
     <main>
+        <div class="summaries-container">
+            <h2>Our Products</h2>
+            <section class="summaries">
 
-        <section class="summaries">
-            <div class="summary-1">
-                <img src="/lesson-12/images/moped-icon.png">
-                <p>Here at Scoots we carry a larger variety than most scooter rentals. We pride ourselves in having the most 
-                    current and advanced mopeds on the market so you can enjoy your vacation worry free
-                </p>
-            </div>
-            <div class="summary-2">
-                <img src="/lesson-12/images/atv-icon.png">
-                <p>New arrival! We recently started carrying ATV's. We heard you loud and clear and we know you want to get
-                    out and enjoy your vacation and not have to be confined on the streets. Our all new Honda Pioneer will allow 
-                    you to get out and explore the deeper parts of the island hassle free!
-                </p>
-            </div>
-            <div class="summary-3">
-                <img src="/lesson-12/images/jeep-icon.png">
-                <p>Here at Scoots we carry a larger variety than most scooter rental shops around. We are proud to 
-                    say that we not only have scooters, but ATV's and Jeeps. This will provide you with more opportunities
-                    to enhance your vacation. You will no longer be confined to the streets!
-                </p>
-            </div>
-        </section>
+                <div class="summary-1">
+                    <h3>Scooters</h3>
+                    <img src="/lesson-12/images/product-scooter.jpg">
+                    <p>Here at Scoots we carry a larger variety than most scooter rentals. We pride ourselves in having
+                        the
+                        most
+                        current and advanced mopeds on the market so you can enjoy your vacation worry free
+                    </p>
+                </div>
+                <div class="summary-2">
+                    <h3>AVTs</h3>
+                    <img src="/lesson-12/images/product-atv.jpg">
+                    <p>New arrival! We recently started carrying ATV's. Our all new Honda
+                        Pioneer
+                        will allow
+                        you to get out and explore the deeper parts of the island and not be stuck on the roads your entire vacation!
+                    </p>
+                </div>
+                <div class="summary-3">
+                    <h3>Jeeps</h3>
+                    <img src="/lesson-12/images/product-jeep.png">
+                    <p>Here at Scoots we carry a larger variety than most scooter rental shops around. We are proud to
+                        say that we not only have scooters, but ATV's and Jeeps. This will provide you with more
+                        opportunities
+                        to enhance your vacation.
+                    </p>
+                </div>
+            </section>
+        </div>
 
         <div class="threeDayContainer">
             <h1>3 Day Forecast</h1>
@@ -89,26 +99,26 @@
             </div>
         </div>
     </main>
-    <footer>
-        <img src="#" alt="image" class="">
 
-        <h3>Contact Information</h3>
-        <div class="infoLarge">
-            <img src="#" alt="icon of location" class="contactInfoIcon">
-            <p class="address">9090 Scoots Lane. Cozumel, Mexico 80000</p>
+    <footer>
+        <div class="contact-container">
+            <h2>Need Help?</h2>
+            <div class="contact-info">
+                <div class="phone"><img src="/lesson-12/images/phone-icon.png">
+                    <p>Phone</p>
+                </div>
+                <div class="email"><img src="/lesson-12/images/email-icon.png">
+                    <p>Phone</p>
+                </div>
+                <div class="address"><img src="/lesson-12/images/address-icon.png">
+                    <p>Phone</p>
+                </div>
+            </div>
         </div>
-        <div class="infoLarge">
-            <img src="/lesson-11/images/email.svg" alt="icon of envelope" class="contactInfoIcon">
-            <p>scoots@myemail.com</p>
-        </div>
-        <div class="infoLarge">
-            <img src="/lesson-11/images/phone.svg" alt="icon of phone" class="contactInfoIcon">
-            <p>801-909-9090</p>
-        </div>
-        <div class="socialMedia">
-            <img src="#" alt="facebook icon">
-            <img src="#" alt="instagram icon">
-            <img src="#" alt="twitter icon">
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119641.78700531313!2d-86.94429295134766!3d20.432069545773885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018bfc!2sCozumel!5e0!3m2!1sen!2sus!4v1607114130453!5m2!1sen!2sus"
+                width="700" height="200" frameborder="0" style="border:0;" aria-hidden="false" tabindex="0"></iframe>
         </div>
         <script src="/lesson-12/js/script.js"></script>
     </footer>
