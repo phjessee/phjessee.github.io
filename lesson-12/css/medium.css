@@ -80,4 +80,27 @@
         grid-gap: 12px;
         
     }
+
+
+
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 960px;
+    }
+
+    form legend {
+        font-size: 18px;
+    }
+     
+    form input.submitBtn {
+        width: 200px;
+    }
+
+    .sbs {
+        display: flex;
+        flex-direction: column;
+    }
 }

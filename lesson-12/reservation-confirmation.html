@@ -18,46 +18,24 @@
     <ul id="primaryNav" class="hide, nav">
         <li><a href="/lesson-12/home.html">Home</a></li>
         <li><a href="/lesson-12/rentals.html">Rentals</a></li>
-        <li><a href="/lesson-12/reservations.html"  class="selected">Reservations</a></li>
+        <li><a href="/lesson-12/reservations.html" class="selected">Reservations</a></li>
         <li><a href="/lesson-12/tours.html">Tours</a></li>
         <li><a href="/lesson-12/contact.html">Contact</a></li>
     </ul>
 </nav>
 
 <body>
-    <form method="get" action="reservation-confirmation.html">
-        <fieldset>
-            <legend>Contact Information</legend>
-            <label class="top">Full Name: <input type="text" name="fname" pattern="[A-Za-z ]+" required></label>
-            <label class="top">Email: <input type="email" name="email" placeholder="myemail@email.com"></label>
-            <label class="top">Phone Number: <input type="tel" name="phone" placeholder="1235551234" required></label>
-            <label class="top">Country: <input type="text" name="text" placeholder="country" required></label>
-        </fieldset>
-        <fieldset>
-            <legend>Rental Information</legend>
-            <label class="top">Todays Date: <input type="date" name="date"></label>
-            <label class="top ">Rental Period<div class="period"><div><input name="rent" type="date" class="rent" placeholder="rent"></div> <div><input name="return" type="date" class="return" placeholder="return"></div></div></label>
-           
-            <p class="output" id="output"></p>
 
-            <label class="top">
-                <select>
-                    <option class="item-1" selected disabled>Rental Type</option>
-                    <option class="item-2">Scooter</option>
-                    <option class="item-3">ATV</option>
-                    <option class="item-4">Jeep</option>
-                </select>
-            </label>
-        </fieldset>
-        <fieldset>
-            <legend>Additional Information</legend>
-            <div class="additional-info-header">Do you need it dropped off?</div>
-            <label><input type="radio" name="danger" value="yes"> Yes</label>
-            <label><input type="radio" name="danger" value="no"> No</label>
-            <label class="top"><textarea placeholder="Provide information for drop off"></textarea></label>
-        </fieldset>
-        <input type="submit" value="Send Storm Report" class="submitBtn">
-    </form>
+    <main>
+        <div class="thankyou">
+            <h1>Reservation Success!</h1>
+            <h4>You have successfully made your reservation.</h4>
+            <p>Confirmation# 45GBG43543235343GB</p>
+            <a href="/lesson-12/home.html">
+                <h3>Return home</h3>
+            </a>
+        </div>
+    </main>
 
     <footer>
         <div class="contact-container">
@@ -82,4 +60,5 @@
         <script src="/lesson-12/js/script.js"></script>
     </footer>
 </body>
+
 </html>
