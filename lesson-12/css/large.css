@@ -60,7 +60,6 @@
 
 
 
-
     /*----------- summaries -----------*/
     .summaries {
         display: grid;
@@ -70,7 +69,7 @@
 
 
 
-/*----------- rentals -----------*/
+    /*----------- rentals -----------*/
     .rentals {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -91,4 +90,3 @@
 
 
     /*----------- Footer -----------*/
-  

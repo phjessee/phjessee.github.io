@@ -479,13 +479,18 @@ form label .period input {
 }
 
 .tour-info {
-    margin: 1rem;
+    margin: -.4rem 0;
 }
 
 .tour-info h3 {
     background-color: #008BC9;
     color: #ffffff;
-    margin: ;
+    margin-top: 0 ;
+    padding: .5rem;
+}
+
+.tour-info p {
+    padding: .5rem 1rem 1.1rem 1rem;
 }
 
 /*----------- FOOTER -----------*/
