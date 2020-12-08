@@ -91,29 +91,4 @@
 
 
     /*----------- Footer -----------*/
-    .contact-info {
-        max-width: 1040px;
-        margin: auto;
-    }
-
-    .contact-container h2 {
-        display: block;
-        text-align: center;
-        margin: 0 0 3rem 0;
-    }
-
-    .phone img,
-    .address img,
-    .email img {
-        height: 38px;
-    }
-
-    .email img {
-        width: 46px;
-    }
-
-    .address img {
-        height: 46px;
-        width: 34px;
-    }
-}
+  

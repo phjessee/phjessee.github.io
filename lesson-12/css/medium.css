@@ -103,4 +103,23 @@
         display: flex;
         flex-direction: column;
     }
+
+
+
+
+
+
+    footer .footer-info {
+        display: flex;
+       flex-direction: row;
+       max-width: 1040px;
+       margin: auto;
+       justify-content: space-around;
+     }
+
+
+     .contact, .about, .products {
+        width: 200px;
+    }
+     
 }
