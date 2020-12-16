@@ -81,9 +81,23 @@
 
 
 
-
+    /*----------- Contact -----------*/
     form legend {
         font-size: 20px;
+    }
+
+    .contact-form {
+        max-width: 1090px;
+        margin: auto;
+    }
+
+    .contact-map {
+        display: block;
+        text-align: left;
+        max-width: 100%;
+        margin: auto;
+        margin-left: 5.5rem;
+        padding-bottom: 2rem;
     }
 
 

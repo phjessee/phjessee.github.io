@@ -464,6 +464,13 @@ form label .period input {
 
 .contact-form {
     background-color: #ffffff;
+    margin: 0 1rem;
+}
+
+.contact-map iframe{
+    margin-left: 1rem;
+    width: 420px
+    
 }
 
 
