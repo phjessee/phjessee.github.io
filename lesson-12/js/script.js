@@ -33,4 +33,39 @@ fetch(forecastURL)
     }
   });
 
+
+
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=20.4230&lon=86.9223&appid=f59f532633b10d55bbf07be7f8538bff&units=imperial';
+fetch(apiURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.table(jsObject);
+    let t = parseFloat(jsObject.main.temp);
+    document.getElementById('temp').innerHTML = jsObject.weather[0].description;
+    document.getElementById('feels').innerHTML = Math.round(t) + "&#8457;";
+    document.getElementById('humidity').innerHTML = jsObject.main.humidity + "&#37;";
+  });
+
+
   
+var x = document.getElementById('temp').value;
+
+if (x = 'hurricane' || 'thunder storms' || 'tropical storms' || 'floods' || 'monsoon') {
+  document.getElementById('alert').style.display = "none";
+} else {
+  document.getElementById("alert").style.display = "block";
+};
+
+
+var x = document.lastModified;
+document.getElementById("currentDate").innerHTML = x;
+
+var n = new Date();
+var y = n.getFullYear();
+document.getElementById("currentYear").innerHTML = y;
+
+WebFont.load({
+    google: {
+        families: ['Roboto']
+    }
+});

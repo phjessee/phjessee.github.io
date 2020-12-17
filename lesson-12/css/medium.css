@@ -121,5 +121,14 @@
      .contact, .about, .products {
         width: 200px;
     }
+
+    .last-updated {
+        flex-direction: column;
+        white-space: nowrap;
+    }
+
+    .last-updated p {
+        margin: 0;
+    }
      
 }

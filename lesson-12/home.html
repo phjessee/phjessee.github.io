@@ -25,6 +25,10 @@
         </ul>
     </nav>
 
+    <div class="warning" id="alert">
+        <p>--WARNING DANGEROUS WEATHER CONDITIONS--</p>
+    </div>
+
     <div class="heroImg">
         <div class="headline">
             <h1>Explore your vacation</h1>
@@ -85,22 +89,30 @@
         </div>
 
         <div class="threeDayContainer">
-            <h1>3 Day Forecast</h1>
-            <div class="threeDayForecast">
-                <div>
-                    <p id="dayofweek1"></p>
-                    <img id="icon1" src="#" alt="unknown">
-                    <h2 id="forecast1">.</h2>
+            <div class="summary">
+                <div class="currentTemp">
+                    <h3>Current Weather</h3>
+                    <p>Currently: <span class="weatherValue" id="temp"></span></p>
+                    <p>Current temp: <span class="weatherValue" id="feels"></span></p>
+                    <p>Humidity: <span class="weatherValue" id="humidity"></span></p>
                 </div>
-                <div>
-                    <p id="dayofweek2"></p>
-                    <img id="icon2" src="#" alt="unknown">
-                    <h2 id="forecast2">.</h2>
-                </div>
-                <div>
-                    <p id="dayofweek3">.</p>
-                    <img id="icon3" src="#" alt="unknown">
-                    <h2 id="forecast3">.</h2>
+                <h1>3 Day Forecast</h1>
+                <div class="threeDayForecast">
+                    <div>
+                        <p id="dayofweek1"></p>
+                        <img id="icon1" src="#" alt="unknown">
+                        <h2 id="forecast1">.</h2>
+                    </div>
+                    <div>
+                        <p id="dayofweek2"></p>
+                        <img id="icon2" src="#" alt="unknown">
+                        <h2 id="forecast2">.</h2>
+                    </div>
+                    <div>
+                        <p id="dayofweek3">.</p>
+                        <img id="icon3" src="#" alt="unknown">
+                        <h2 id="forecast3">.</h2>
+                    </div>
                 </div>
             </div>
         </div>
@@ -125,12 +137,14 @@
                 <p>Honda</p>
                 <p>ATV</p>
                 <p>Jeep</p>
+                <div class="last-updated">
+                    <p>Last updated:</p>
+                    <p id="currentDate"></p>
+                </div>
             </div>
         </div>
         <script src="/lesson-12/js/script.js"></script>
     </footer>
-
-
 </body>
 
 </html>
