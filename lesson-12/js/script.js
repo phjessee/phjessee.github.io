@@ -34,6 +34,7 @@ fetch(forecastURL)
   });
 
 
+/*------ Current Weather -------*/
 
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=20.4230&lon=86.9223&appid=f59f532633b10d55bbf07be7f8538bff&units=imperial';
 fetch(apiURL)
@@ -47,6 +48,7 @@ fetch(apiURL)
   });
 
 
+  /*------ Weather Alert Banner -------*/
   
 var x = document.getElementById('temp').value;
 
@@ -56,6 +58,8 @@ if (x = 'hurricane' || 'thunder storms' || 'tropical storms' || 'floods' || 'mon
   document.getElementById("alert").style.display = "block";
 };
 
+
+/*------ Footer (Last Modified) -------*/
 
 var x = document.lastModified;
 document.getElementById("currentDate").innerHTML = x;
