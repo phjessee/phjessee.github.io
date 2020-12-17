@@ -79,16 +79,6 @@ nav .hide {
 
 
 
-/*------ CLEAR FIX --------*/
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-
-
 
 /*------ MAIN --------*/
 body {
@@ -358,8 +348,7 @@ select {
     display: block;
     width: 20rem;
     padding: 1rem;
-    background-color: #ebebeb;
-    border: none;
+    border: solid 2px #008BC9;
     border-radius: 6px;
     max-width: 80%;
 }
@@ -415,6 +404,17 @@ form label .period input {
     font-family: 'Roboto';
 }
 
+form ul {
+    font-family: 'Roboto';
+}
+
+form ul {
+    padding-left: 1rem;
+}
+
+.checkbox {
+    padding: 1rem 0;
+}
 
 
 /*------ slider -----*/

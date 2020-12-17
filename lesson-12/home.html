@@ -12,36 +12,41 @@
     <title>Scoot</title>
 </head>
 
-<nav class="clearfix">
-    <img src="/lesson-12/images/scoots-logo.png" class="logo">
-    <button onclick="toggleMenu()">&#9776;</button>
-    <ul id="primaryNav" class="hide, nav">
-        <li><a href="/lesson-12/home.html" class="selected">Home</a></li>
-        <li><a href="/lesson-12/rentals.html">Rentals</a></li>
-        <li><a href="/lesson-12/reservations.html">Reservations</a></li>
-        <li><a href="/lesson-12/tours.html">Tours</a></li>
-        <li><a href="/lesson-12/contact.html">Contact</a></li>
-    </ul>
-</nav>
-
 <body>
+    <nav class="clearfix">
+        <img src="/lesson-12/images/scoots-logo.png" class="logo" alt="logo">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide, nav">
+            <li><a href="/lesson-12/home.html" class="selected">Home</a></li>
+            <li><a href="/lesson-12/rentals.html">Rentals</a></li>
+            <li><a href="/lesson-12/reservations.html">Reservations</a></li>
+            <li><a href="/lesson-12/tours.html">Tours</a></li>
+            <li><a href="/lesson-12/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
     <div class="heroImg">
+        <div class="headline">
+            <h1>Explore your vacation</h1>
+            <h4>Scoots has you covered</h4>
+        </div>
         <picture>
-            <div class="headline">
-                <h1>Explore your vacation</h1>
-                <h4>Scoots has you covered</h4>
-            </div>
             <source media="(max-width: 600px)" srcset="/lesson-12/images/hero-image-small.jpg">
             <source media="(max-width: 960px)" srcset="/lesson-12/images/hero-image-medium.jpg">
             <source media="(max-width: 1100px)" srcset="/lesson-12/images/hero-image-large.jpg">
             <img src="/lesson-12/images/hero-image-large.jpg" alt="hero image">
         </picture>
-        <a href="/lesson-12/rentals.html"><button class="ctaBtn">GET RENTAL NOW!</button></a>
+        <form action="/lesson-12/rentals.html">
+            <button class="ctaBtn" type="submit">GET RENTAL NOW!</button>
+        </form>
     </div>
     <div class="social-media">
-        <a href="#"><img id="fb-icon" src="/lesson-12/images/facebook-icon.png" alt="facebook icon"></a>
-        <a href="#"><img id="inst-icon" src="/lesson-12/images/instagram-icon.png" alt="instagram icon"></a>
-        <a href="#"><img id="twit-icon" src="/lesson-12/images/twitter-icon.png" alt="twitter icon"></a>
+        <a href="https://facebook.com" target="https://facebook.com"><img id="fb-icon"
+                src="/lesson-12/images/facebook-icon.png" alt="facebook icon"></a>
+        <a href="https://instagram.com" target="https://instagram.com"><img id="inst-icon"
+                src="/lesson-12/images/instagram-icon.png" alt="instagram icon"></a>
+        <a href="https://twitter.com" target="https://twitter.com"><img id="twit-icon"
+                src="/lesson-12/images/twitter-icon.png" alt="twitter icon"></a>
     </div>
     <main>
         <div class="summaries-container">
@@ -50,7 +55,7 @@
 
                 <div class="summary-1">
                     <h3>Scooters</h3>
-                    <img src="/lesson-12/images/product-scooter.jpg">
+                    <img src="/lesson-12/images/product-scooter.jpg" alt="scooter">
                     <p>Here at Scoots we carry a larger variety than most scooter rentals. We pride ourselves in having
                         the
                         most
@@ -59,16 +64,17 @@
                 </div>
                 <div class="summary-2">
                     <h3>AVTs</h3>
-                    <img src="/lesson-12/images/product-atv.jpg">
+                    <img src="/lesson-12/images/product-atv.jpg" alt="atv">
                     <p>New arrival! We recently started carrying ATV's. Our all new Honda
                         Pioneer
                         will allow
-                        you to get out and explore the deeper parts of the island and not be stuck on the roads your entire vacation!
+                        you to get out and explore the deeper parts of the island and not be stuck on the roads your
+                        entire vacation!
                     </p>
                 </div>
                 <div class="summary-3">
                     <h3>Jeeps</h3>
-                    <img src="/lesson-12/images/product-jeep.png">
+                    <img src="/lesson-12/images/product-jeep.png" alt="jeep">
                     <p>Here at Scoots we carry a larger variety than most scooter rental shops around. We are proud to
                         say that we not only have scooters, but ATV's and Jeeps. This will provide you with more
                         opportunities
@@ -84,17 +90,17 @@
                 <div>
                     <p id="dayofweek1"></p>
                     <img id="icon1" src="#" alt="unknown">
-                    <h2 id="forecast1"></h2>
+                    <h2 id="forecast1">.</h2>
                 </div>
                 <div>
                     <p id="dayofweek2"></p>
                     <img id="icon2" src="#" alt="unknown">
-                    <h2 id="forecast2"></h2>
+                    <h2 id="forecast2">.</h2>
                 </div>
                 <div>
-                    <p id="dayofweek3"></p>
+                    <p id="dayofweek3">.</p>
                     <img id="icon3" src="#" alt="unknown">
-                    <h2 id="forecast3"></h2>
+                    <h2 id="forecast3">.</h2>
                 </div>
             </div>
         </div>
@@ -124,7 +130,7 @@
         <script src="/lesson-12/js/script.js"></script>
     </footer>
 
-    
+
 </body>
 
 </html>

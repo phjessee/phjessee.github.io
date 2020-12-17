@@ -12,19 +12,19 @@
     <title>Scoot</title>
 </head>
 
-<nav class="clearfix">
-    <img src="/lesson-12/images/scoots-logo.png" class="logo">
-    <button onclick="toggleMenu()">&#9776;</button>
-    <ul id="primaryNav" class="hide, nav">
-        <li><a href="/lesson-12/home.html">Home</a></li>
-        <li><a href="/lesson-12/rentals.html">Rentals</a></li>
-        <li><a href="/lesson-12/reservations.html"  class="selected">Reservations</a></li>
-        <li><a href="/lesson-12/tours.html">Tours</a></li>
-        <li><a href="/lesson-12/contact.html">Contact</a></li>
-    </ul>
-</nav>
-
 <body>
+    <nav class="clearfix">
+        <img src="/lesson-12/images/scoots-logo.png" class="logo" alt="logo">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide, nav">
+            <li><a href="/lesson-12/home.html">Home</a></li>
+            <li><a href="/lesson-12/rentals.html">Rentals</a></li>
+            <li><a href="/lesson-12/reservations.html" class="selected">Reservations</a></li>
+            <li><a href="/lesson-12/tours.html">Tours</a></li>
+            <li><a href="/lesson-12/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
     <form method="get" action="reservation-confirmation.html">
         <fieldset>
             <legend>Contact Information</legend>
@@ -36,8 +36,8 @@
         <fieldset>
             <legend>Rental Information</legend>
             <label class="top">Todays Date: <input type="date" name="date"></label>
-            <label class="top ">Rental Period<div class="period"><div><input name="rent" type="date" class="rent" placeholder="rent"></div> <div><input name="return" type="date" class="return" placeholder="return"></div></div></label>
-           
+            <label class="top">Pick-up date<input name="rent" type="date" class="rent"></label>
+            <label class="top">Return date<input name="return" type="date" class="return"></label>
             <p class="output" id="output"></p>
 
             <label class="top">
@@ -52,12 +52,50 @@
         <fieldset>
             <legend>Additional Information</legend>
             <div class="additional-info-header">Do you need it dropped off?</div>
-            <label><input type="radio" name="danger" value="yes"> Yes</label>
-            <label><input type="radio" name="danger" value="no"> No</label>
+            <label><input type="radio" name="keep" value="yes"> Yes</label>
+            <label><input type="radio" name="drop" value="no"> No</label>
             <label class="top"><textarea placeholder="Provide information for drop off"></textarea></label>
         </fieldset>
-        <input type="submit" value="Send Storm Report" class="submitBtn">
+        <fieldset>
+            <legend>Rental Agreement Information</legend>
+            <ul>
+                <li>
+                    <p>A $50 security deposit is required to confirm reservations.</p>
+                </li>
+                <li>
+                    <p>A valid drivers license is required in hand at time of rental.</p>
+                </li>
+                <li>
+                    <p>No one under 12 years of age are allowed to ride on the scooters.</p>
+                </li>
+                <li>
+                    <p>Fuel charge not included.</p>
+                </li>
+                <li>
+                    <p>Unlimited mileage.</p>
+                </li>
+                <li>
+                    <p>Liability insurance is free of charge.</p>
+                </li>
+                <li>
+                    <p>Reservations rate requires 24 hour prior notification.</p>
+                </li>
+                <li>
+                    <p>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</p>
+                </li>
+                <li>
+                    <p>Payment via Google Pay, cash, credit card, debit card, or PayPal.</p>
+                </li>
+                <li>
+                    <p>Rentals may be returned to either location.</p>
+                </li>
+            </ul>
+            <label class="checkbox"><input type="checkbox" name="agree"> Check the box to indicate you have read Rental
+                Agreement Information</label>
+        </fieldset>
+        <input type="submit" value="Make Reservation" class="submitBtn">
     </form>
+
 
     <footer>
         <div class="footer-info">
@@ -83,4 +121,5 @@
         <script src="/lesson-12/js/script.js"></script>
     </footer>
 </body>
+
 </html>
