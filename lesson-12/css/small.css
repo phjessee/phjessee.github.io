@@ -79,6 +79,13 @@ nav .hide {
 
 
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 
 /*------ MAIN --------*/
 body {
