@@ -7,7 +7,7 @@ body {
 
 header h1 {
    font-size: 24px;
-   text-align: left;
+   text-align: center;
    padding-left: 1rem;
 }
 
@@ -25,7 +25,6 @@ footer {
 }
 
 header img {
-    float: right;
     height: 200px;
     width: 200px;
     margin: .5rem .5rem 0 0;
