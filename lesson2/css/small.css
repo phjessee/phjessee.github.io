@@ -1,0 +1,63 @@
+body {
+    font-family: 'Rale way', regular, 'Helvetica';
+    background-color: #f6f6f6;
+}
+
+header {
+    margin: auto;
+    padding: .1rem;
+    text-align: center;
+    background-color: #215a85;
+    color: white;
+    max-width: 1020px;
+}
+
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.sub-header {
+    background-color: #215a85;
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section {
+    margin: 0 auto;
+    margin: 2%;
+}
+
+.sub-header {
+    padding: 5%;
+    line-height: 10px;
+}
+
+section img {
+    height: 600px;
+
+}
+
+main {
+    margin: auto;
+    max-width: 1040px;
+}
+
+section {
+    background-color: #ffffff;
+}
+
+p {
+    padding: 0 2rem;
+}
