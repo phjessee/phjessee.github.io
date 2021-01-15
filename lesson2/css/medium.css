@@ -6,6 +6,8 @@
         grid-template-rows: repeat(2, 1fr);
     }
 
- 
+ .section3 {
+     grid-column: 1/3;
+ }
 
 }
