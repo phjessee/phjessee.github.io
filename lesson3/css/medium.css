@@ -8,4 +8,8 @@
 .container {
         margin: 0 10%;
     }
+
+    main {
+        width: 700px;
+    }
 }
