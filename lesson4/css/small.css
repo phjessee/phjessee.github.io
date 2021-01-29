@@ -110,15 +110,10 @@ nav ul li a:hover {
     border: #333333 dashed 1px;
 }
 
-main {
-    margin: auto;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
 .mainSection {
     margin: 5rem 0;
   }
+  
 .placeHolders {
     background-color: #dadada;
     border: 1px solid #333333;
