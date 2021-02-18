@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Preston home Website page for Paul Jessee WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="shortcut icon" type="image/png" href="/lesson6/images/weather-icon.png">
+    <link rel="stylesheet" type="text/css" href="/lesson7/css/small.css">
+    <link rel="stylesheet" type="text/css" href="/lesson7/css/medium.css">
+    <link rel="stylesheet" type="text/css" href="/lesson7/css/large.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="/lesson7/js/lazy.js" defer></script>
+    <title>Outdoor Temp</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="/lesson6/preston-6.html"><img src="/lesson6/images/weather-icon.png"
+                    alt="website logo with sun, mountain and cloud" title="Outdoor Temp logo"></a>
+            <div>
+                <h1>Outdoor Temp</h1>
+                <p>Your best weather guide</p>
+            </div>
+        </div>
+        <button onclick="toggleMenu()">&#9776;</button>
+    </header>
+
+    <div id="message">
+        <p>Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+    <nav class="clearfix">
+        <ul id="primaryNav" class="hide">
+            <li><a href="/lesson-11/index.html">Home</a></li>
+            <li><a href="/lesson-10/preston-10.html">Preston</a></li>
+            <li><a href="/lesson-11/soda-springs.html">Soda Springs</a></li>
+            <li><a href="/lesson-11/fish-haven.html">Fish Haven</a></li>
+            <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="#" class="selected">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Weather Gallery</h1>
+        <div class="images">
+            <div class="gallery-item img1">
+                <picture>
+                    <img src="/lesson7/images/placeholder.png" data-src="/lesson7/images/autumn-forest-4561344_640.jpg"
+                        class="gallery-img" alt="fall forest">
+                </picture>
+                <p class="img-text">Autumn Forest</p>
+            </div>
+            <div class="gallery-item img2">
+                <picture>
+                    <img src="/lesson7/images/placeholder.png"
+                        data-src="/lesson7/images/johannes-plenio.jpg" class="gallery-img"
+                        alt="fall forest">
+                </picture>
+                <p class="img-text">Autumn Forest</p>
+            </div>
+            <div class="gallery-item img3">
+                <picture>
+                    <img src="/lesson7/images/placeholder.png" data-src="/lesson7/images/sunset-clouds.jpg"
+                        class="gallery-img " alt="fall forest">
+                </picture>
+                <p class="img-text">View of sunset</p>
+            </div>
+            <div class="gallery-item img4">
+                <picture>
+                    <img src="/lesson7/images/placeholder.png" data-src="/lesson7/images/autumn-way.jpg"
+                        class="gallery-img " alt="fall forest">
+                </picture>
+                <p class="img-text">Autumn Forest</p>
+            </div>
+            <div class="gallery-item img5">
+                <picture>
+                    <img src="/lesson7/images/placeholder.png" data-src="/lesson7/images/thunderstorm.jpg"
+                        class="gallery-img " alt="fall forest">
+                </picture>
+                <p class="img-text">Monsoon Thunderstorm</p>
+            </div>
+            <div class="gallery-item img6">
+                <picture>
+                    <img src="/lesson7/images/placeholder.png" data-src="/lesson7/images/ocean-thunderstorm.jpg"
+                        class="gallery-img " alt="fall forest">
+                </picture>
+                <p class="img-text">Ocean Storm</p>
+            </div>
+            <div class="gallery-item img7">
+                <picture>
+                    <img src="/lesson7/images/placeholder.png" data-src="/lesson7/images/snow.jpg" class="gallery-img "
+                        alt="fall forest">
+                </picture>
+                <p class="img-text">Winter Wonderland</p>
+            </div>
+            <div class="gallery-item img8">
+                <picture>
+                    <img src="/lesson7/images/placeholder.png" data-src="/lesson7/images/rain.jpg" class="gallery-img "
+                        alt="fall forest">
+                </picture>
+                <p class="img-text">Rain day </p>
+            </div>
+            <div class="gallery-item img9">
+                <picture>
+                    <img src="/lesson7/images/placeholder.png" data-src="/lesson7/images/forest-fog.jpg"
+                        class="gallery-img " alt="fall forest">
+                </picture>
+                <p class="img-text">Forest fog</p>
+            </div>
+            <div class="gallery-item img10">
+                <picture>
+                    <img src="/lesson7/images/placeholder.png" data-src="/lesson7/images/flood.jpg" class="gallery-img "
+                        alt="fall forest">
+                </picture>
+                <p class="img-text">City flood</p>
+            </div>
+            <div class="gallery-item img11">
+                <picture>
+                    <img src="/lesson7/images/placeholder.png" data-src="/lesson7/images/forest-snow.jpg"
+                        class="gallery-img " alt="fall forest">
+                </picture>
+                <p class="img-text">Forest Snow</p>
+            </div>
+            <div class="gallery-item img12">
+                <picture>
+                    <img src="/lesson7/images/placeholder.png" data-src="/lesson7/images/cloudy.jpg"
+                        class="gallery-img " alt="fall forest">
+                </picture>
+                <p class="img-text">Cloudy Sunset</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p> &#169; 2020 Outdoor Temp | -- | Paul Jessee |
+            Current Date: <span id="currentDate"></span></p>
+        <script src="/lesson5/js/script.js"></script>
+    </footer>
+</body>
+
+</html>
