@@ -1,0 +1,263 @@
+/*################# Default ######################*/
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    
+}
+
+h2 {
+    margin-left: 1rem;
+}
+
+body {
+    background-color: #eeeeee;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*################# Header ######################*/
+.bodyheader {
+    margin-left: 1.5rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #666A86;
+    line-height: 10px;
+    color: white;
+    padding: 12px;
+}
+
+header div {
+    display: flex;
+}
+
+header div div {
+    display: block;
+    margin-left: 10px;
+}
+
+header button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+
+header img {
+    height: 45px;
+    margin: 0 5px;
+    border: 1px white solid;
+    border-radius: 100%;
+}
+
+
+
+/*################# Nav ######################*/
+
+
+nav {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #dadada;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333333;
+}
+
+.selected {
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    background-color: #333333;
+    color: #fff;
+}
+
+.hide {
+    display: none;
+}
+
+
+/*################# message ######################*/
+
+#message {
+    display: none;
+    text-align: center;
+    background-color: #4b84ac;
+    color: #fff;
+    font-size: 16px;
+    padding: .4rem .3rem;
+}
+
+
+/*################# Clearfix ######################*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*########### Form ################*/
+
+form {
+    background-color: #fff;
+    display: block;
+
+}
+
+fieldset label {
+    display: block;
+    margin: 1.3rem 0 0 0;
+}
+
+form fieldset {
+    border: none;
+    margin: 1rem 2rem;
+}
+
+form legend {
+    padding-top: 1rem;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    border-bottom: 2px solid;
+    width: 100%;
+}
+
+form label.top input,
+textarea,
+select {
+    display: block;
+    width: 20rem;
+    padding: 1rem;
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 6px;
+    max-width: 80%;
+}
+
+form div {
+    margin: 1rem 0;
+}
+
+form input.submitBtn {
+    margin: auto;
+    border: none;
+    background-color: #666A86;
+    color: #fff;
+    border-radius: 6px;
+    padding: 1rem 2rem;
+    margin: 0 0 2rem 2.7rem;
+}
+
+form label.top input:required {
+    border-bottom: red solid 2px;
+}
+
+form label.top input:required:valid {
+    border-bottom: green solid 3px;
+}
+
+.output {
+    margin: .2rem;
+}
+
+/*------ slider -----*/
+
+#severity {
+    margin-top: .8rem;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 21.5rem;
+    height: 15px;
+    background: #eeeeee;
+    outline: none;
+    border-radius: 8px;
+    max-width: 80%;
+}
+
+#severity::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 15px;
+    width: 26px;
+    height: 26px;
+    background: #333333;
+    cursor: pointer;
+}
+
+
+/*------ Thankyou message -----*/
+
+.thankyou {
+    display: block;
+    text-align: center;
+    height: 300px;
+    margin-top: 6rem;
+}
+
+
+/*########### Contact Information ################*/
+
+
+.contactInfo {
+    background-color: #dadada;
+    margin-top: 1.5rem;
+    padding: 2rem 1rem;
+    line-height: .5rem;
+}
+
+.info {
+    display: flex;
+}
+
+.info img {
+    padding-right: .5rem;
+}
+
+.smallCityMap {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    padding-top: 1rem;
+}
+
+.contactInfoLarge {
+    display: none;
+}
+
+
+
+
+/*################# Footer ##############*/
+
+footer {
+    background-color: #666A86;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
