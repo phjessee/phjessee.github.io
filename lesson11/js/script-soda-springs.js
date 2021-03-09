@@ -16,7 +16,7 @@ try {
   }
 
 
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=f59f532633b10d55bbf07be7f8538bff&units=imperial';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=e592e2e06eeae47ff9c02cce63ec9adc&units=imperial';
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -38,7 +38,7 @@ fetch(apiURL)
             chill = "N/A";
         }
     });
-const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=f59f532633b10d55bbf07be7f8538bff';
+const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=e592e2e06eeae47ff9c02cce63ec9adc';
 fetch(forecastURL)
     .then((response) => response.json())
     .then((forecastObject) => {
