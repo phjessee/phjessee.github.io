@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="shortcut icon" type="image/png" href="/lesson-12/images/favicon.png">
+    <link rel="stylesheet" href="/lesson-12/css/small.css">
+    <link rel="stylesheet" href="/lesson-12/css/medium.css">
+    <link rel="stylesheet" href="/lesson-12/css/large.css">
+    <title>Rentals</title>
+</head>
+
+<body>
+    <nav class="clearfix">
+        <img src="/lesson-12/images/scoots-logo.png" class="logo" alt="logo">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide, nav">
+            <li><a href="/lesson-12/home.html">Home</a></li>
+            <li><a href="/lesson-12/rentals.html" class="selected">Rentals</a></li>
+            <li><a href="/lesson-12/reservations.html">Reservations</a></li>
+            <li><a href="/lesson-12/tours.html">Tours</a></li>
+            <li><a href="/lesson-12/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="rental-info">
+            <h2>Scoots Rentals</h2>
+            <p>6 rentals available for rent</p>
+            <section class="rentals">
+                <div class="rental-card">
+                    <img src="/lesson-12/images/honda-metro.jpg" alt="honda moped" style="width:100%">
+                    <h3>Honda Metro</h3>
+                    <div class="card-info">
+                        <div class="card-price">
+                            <div class="res-price">
+                                <h4>Reservation Price</h4>
+                                <p class="half-price">Half Day(3hrs): $20.00</p>
+                                <p class="full-price">Full Day: $30.00</p>
+                            </div>
+                            <div class="walk-price">
+                                <h4>Walk-in Price</h4>
+                                <p class="half-price">Half Day(3hrs): $25.00</p>
+                                <p class="price">Full Day: $35.00</p>
+                            </div>
+                        </div>
+                        <p class="card-details">The Honda Metro is a classic moped. With great gas mileage, comfort and
+                            ease
+                            of use, the Hond
+                            Metro is perfect for the casual tourist.</p>
+                    </div>
+                    <button>Rent Now</button>
+                </div>
+
+
+                <div class="rental-card">
+                    <img src="/lesson-12/images/honda-dio.jpg" alt="honda moped" style="width:100%">
+                    <h3>Honda Dio</h3>
+                    <div class="card-info">
+                        <div class="card-price">
+                            <div class="res-price">
+                                <h4>Reservation Price</h4>
+                                <p class="half-price">Half Day(3hrs): $30.00</p>
+                                <p class="full-price">Full Day: $40.00</p>
+                            </div>
+                            <div class="walk-price">
+                                <h4>Walk-in Price</h4>
+                                <p class="half-price">Half Day(3hrs): $35.00</p>
+                                <p class="price">Full Day: $45.00</p>
+                            </div>
+                        </div>
+                        <p class="card-details">The Honda Dio is a classic moped. With great gas mileage, comfort and
+                            ease
+                            of use, the Hond
+                            Metro is perfect for the casual tourist.</p>
+                    </div>
+                    <button onclick="window.location.href='/lesson-12/rentals.html';">Rent Now</button>
+                </div>
+
+                <div class="rental-card">
+                    <img src="/lesson-12/images/honda-pcx.jpg" alt="honda moped" style="width:100%">
+                    <h3>Honda PCX</h3>
+                    <div class="card-info">
+                        <div class="card-price">
+                            <div class="res-price">
+                                <h4>Reservation Price</h4>
+                                <p class="half-price">Half Day(3hrs): $40.00</p>
+                                <p class="full-price">Full Day: $50.00</p>
+                            </div>
+                            <div class="walk-price">
+                                <h4>Walk-in Price</h4>
+                                <p class="half-price">Half Day(3hrs): $45.00</p>
+                                <p class="price">Full Day: $55.00</p>
+                            </div>
+                        </div>
+                        <p class="card-details">The Honda PCX is a classic moped. With great gas mileage, comfort and
+                            ease
+                            of use, the Hond
+                            Metro is perfect for the casual tourist.</p>
+                    </div>
+                    <button>Rent Now</button>
+                </div>
+
+                <div class="rental-card">
+                    <img src="/lesson-12/images/honda-pioneer.jpg" alt="honda atv" style="width:100%">
+                    <h3>Honda Pioneer</h3>
+                    <div class="card-info">
+                        <div class="card-price">
+                            <div class="res-price">
+                                <h4>Reservation Price</h4>
+                                <p class="half-price">Half Day(3hrs): $50.00</p>
+                                <p class="full-price">Full Day: $70.00</p>
+                            </div>
+                            <div class="walk-price">
+                                <h4>Walk-in Price</h4>
+                                <p class="half-price">Half Day(3hrs): $60.00</p>
+                                <p class="price">Full Day: $80.00</p>
+                            </div>
+                        </div>
+                        <p class="card-details">The Honda Pioneer is a classic moped. With great gas mileage, comfort
+                            and
+                            ease
+                            of use, the Hond
+                            Metro is perfect for the casual tourist.</p>
+                    </div>
+                    <button>Rent Now</button>
+                </div>
+
+                <div class="rental-card">
+                    <img src="/lesson-12/images/jeep-2.jpg" alt="jeep" style="width:100%">
+                    <h3>Jeep (2 Door)</h3>
+                    <div class="card-info">
+                        <div class="card-price">
+                            <div class="res-price">
+                                <h4>Reservation Price</h4>
+                                <p class="half-price">Half Day(3hrs): $70.00</p>
+                                <p class="full-price">Full Day: $100.00</p>
+                            </div>
+                            <div class="walk-price">
+                                <h4>Walk-in Price</h4>
+                                <p class="half-price">Half Day(3hrs): $85.00</p>
+                                <p class="price">Full Day: $125.00</p>
+                            </div>
+                        </div>
+                        <p class="card-details">The Jeep Wrangler is a great off road vehicle. With great gas mileage,
+                            comfort and
+                            ease of use, the Jeep Wrangler is perfect for the casual tourist.</p>
+                    </div>
+                    <button>Rent Now</button>
+                </div>
+
+                <div class="rental-card">
+                    <img src="/lesson-12/images/jeep-4.jpg" alt="jeep" style="width:100%">
+                    <h3>Jeep (4 Door)</h3>
+                    <div class="card-info">
+                        <div class="card-price">
+                            <div class="res-price">
+                                <h4>Reservation Price</h4>
+                                <p class="half-price">Half Day(3hrs): $60.00</p>
+                                <p class="full-price">Full Day: $85.00</p>
+                            </div>
+                            <div class="walk-price">
+                                <h4>Walk-in Price</h4>
+                                <p class="half-price">Half Day(3hrs): $70.00</p>
+                                <p class="price">Full Day: $90.00</p>
+                            </div>
+                        </div>
+                        <p class="card-details">The Jeep Wrangler is a great off road vehicle. With great gas mileage,
+                            comfort and
+                            ease of use, the Jeep Wrangler is perfect for the casual tourist.</p>
+                    </div>
+                    <button>Rent Now</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <div class="contact">
+                <h4>Contact Us</h4>
+                <p>scoots@myemail.com</p>
+                <p>567 Scoots Ave. Cozumel, Mexico 77600</p>
+                <p>+52 81 8329 9252</p>
+            </div>
+            <div class="about">
+                <h4>About Us</h4>
+                <p>Company</p>
+                <p>Community</p>
+                <p>Careers</p>
+            </div>
+            <div class="products">
+                <h4>Products</h4>
+                <p>Honda</p>
+                <p>ATV</p>
+                <p>Jeep</p>
+            </div>
+        </div>
+        <script src="/lesson-12/js/script.js"></script>
+    </footer>
+</body>
+
+</html>

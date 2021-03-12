@@ -1,0 +1,46 @@
+{
+  "rentals": [
+    {
+      "name": "Honda Metro",
+      "reservationHalf": 20,
+      "reservationFull": 30,
+      "walkInHalf": 25,
+      "walkInFull": 35
+    },
+    {
+      "name": "Honda Dio",
+      "reservationHalf": 30,
+      "reservationFull": 40,
+      "walkInHalf": 35,
+      "walkInFull": 45
+    },
+    {
+      "name": "Honda PCX",
+      "reservationHalf": 40,
+      "reservationFull": 50,
+      "walkInHalf": 45,
+      "walkInFull": 55
+    },
+    {
+      "name": "Honda Pioneer",
+      "reservationHalf": 50,
+      "reservationFull": 70,
+      "walkInHalf": 60,
+      "walkInFull": 80
+    },
+    {
+      "name": "Jeep Wrangler 4",
+      "reservationHalf": 70,
+      "reservationFull": 100,
+      "walkInHalf": 85,
+      "walkInFull": 125
+    },
+    {
+      "name": "Jeep Wrangler 2",
+      "reservationHalf": 60,
+      "reservationFull": 85,
+      "walkInHalf": 70,
+      "walkInFull": 90
+    }
+  ]
+}
