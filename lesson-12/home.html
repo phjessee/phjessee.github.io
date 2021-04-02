@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="shortcut icon" type="image/png" href="/lesson-12/images/logo.jpg.png">
+    <link rel="stylesheet" href="/lesson-12/css/small.css">
+    <link rel="stylesheet" href="/lesson-12/css/medium.css">
+    <link rel="stylesheet" href="/lesson-12/css/large.css">
+    <title>Riverton Chamber of Congress</title>
+</head>
+
+<body>
+    <nav class="clearfix">
+        <img src="/lesson-12/images/logo.jpg.png" class="logo" alt="logo">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide, nav">
+            <li><a href="/lesson-12/home.html" class="selected">Home</a></li>
+            <li><a href="/lesson-12/city.html">City</a></li>
+            <li><a href="/lesson-12/directory.html">Directory</a></li>
+            <li><a href="/lesson-12/join.html">Join</a></li>
+            <li><a href="/lesson-12/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="warning" id="alert">
+        <p>--WARNING DANGEROUS WEATHER CONDITIONS--</p>
+    </div>
+
+    <div class="heroImg">
+        <div class="headline">
+            <h1>Riverton Chamber of Congress</h1>
+            <h4>Helping business since 1950's</h4>
+        </div>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/lesson-12/images/hero-image-small.jpg">
+            <source media="(max-width: 960px)" srcset="/lesson-12/images/hero-image-medium.jpg">
+            <source media="(max-width: 1100px)" srcset="/lesson-12/images/hero-image-large.jpg">
+            <img src="/lesson-12/images/hero-image-large.jpg" alt="hero image">
+        </picture>
+        <form action="/lesson-12/rentals.html">
+            <button class="ctaBtn" type="submit">JOIN MEMBERSHIP</button>
+        </form>
+    </div>
+    <div class="social-media">
+        <a href="https://facebook.com" target="https://facebook.com"><img id="fb-icon"
+                src="/lesson-12/images/facebook-icon.png" alt="facebook icon"></a>
+        <a href="https://instagram.com" target="https://instagram.com"><img id="inst-icon"
+                src="/lesson-12/images/instagram-icon.png" alt="instagram icon"></a>
+        <a href="https://twitter.com" target="https://twitter.com"><img id="twit-icon"
+                src="/lesson-12/images/twitter-icon.png" alt="twitter icon"></a>
+    </div>
+    <main>
+        <div class="summaries-container">
+            <h2>Local Businesses</h2>
+            <section class="summaries">
+
+                <div class="summary-1">
+                    <h3>Taylors Bike Shop</h3>
+                    <img src="/lesson-12/images/taylors..png" alt="scooter">
+                    <p>We’ll keep your bike in tip-top shape. Our skilled technicians service all types of bicycles. From a wheel true to a major overhaul, we do it all.
+                    </p>
+                </div>
+                <div class="summary-2">
+                    <h3>Paragon Games</h3>
+                    <img src="/lesson-12/images/paragon.png" alt="atv">
+                    <p>For several years prior to opening the nursery, Darren owned a landscaping business and Jesse had a flower shop. The natural progression was the creation of Arbor Day Nursery in Riverton, Utah in 2006. We gradually found our niche.
+                    </p>
+                </div>
+                <div class="summary-3">
+                    <h3>Arbor Day Nursery</h3>
+                    <img src="/lesson-12/images/arbor.png" alt="jeep">
+                    <p>Here at Scoots we carry a larger variety than most scooter rental shops around. We are proud to
+                        say that we not only have scooters, but ATV's and Jeeps. This will provide you with more
+                        opportunities
+                        to enhance your vacation.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <div class="threeDayContainer">
+            <div class="summary">
+                <div class="currentTemp">
+                    <h3>Current Weather</h3>
+                    <p>Currently: <span class="weatherValue" id="temp"></span></p>
+                    <p>Current temp: <span class="weatherValue" id="feels"></span></p>
+                    <p>Humidity: <span class="weatherValue" id="humidity"></span></p>
+                </div>
+                <h1>3 Day Forecast</h1>
+                <div class="threeDayForecast">
+                    <div>
+                        <p id="dayofweek1"></p>
+                        <img id="icon1" src="#" alt="unknown">
+                        <h2 id="forecast1">.</h2>
+                    </div>
+                    <div>
+                        <p id="dayofweek2"></p>
+                        <img id="icon2" src="#" alt="unknown">
+                        <h2 id="forecast2">.</h2>
+                    </div>
+                    <div>
+                        <p id="dayofweek3">.</p>
+                        <img id="icon3" src="#" alt="unknown">
+                        <h2 id="forecast3">.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <div class="contact">
+                <h4>Contact Us</h4>
+                <p>Riverton@myemail.com</p>
+                <p>567 Riverton Ave. Riverton, Utah 84043</p>
+                <p>801-900-8989</p>
+            </div>
+            <div class="about">
+                <h4>About Us</h4>
+                <p>Company</p>
+                <p>Community</p>
+                <p>Careers</p>
+            </div>
+            <div class="products">
+                <h4>Membership</h4>
+                <p>Businesses</p>
+                <p>Join</p>
+                <p>About</p>
+                <div class="last-updated">
+                    <p>Last updated:</p>
+                    <p id="currentDate"></p>
+                </div>
+            </div>
+        </div>
+        <script src="/lesson-12/js/script.js"></script>
+    </footer>
+</body>
+
+</html>

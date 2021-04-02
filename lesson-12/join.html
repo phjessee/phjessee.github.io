@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="shortcut icon" type="image/png" href="/lesson-12/images/favicon.png">
+    <link rel="stylesheet" href="/lesson-12/css/small.css">
+    <link rel="stylesheet" href="/lesson-12/css/medium.css">
+    <link rel="stylesheet" href="/lesson-12/css/large.css">
+    <title>Riverton City Chamber of Commerce</title>
+</head>
+
+<body>
+    <nav class="clearfix">
+        <img src="/lesson-12/images/logo.jpg.png" class="logo" alt="logo">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide, nav">
+            <li><a href="/lesson-12/home.html">Home</a></li>
+            <li><a href="/lesson-12/city.html">City</a></li>
+            <li><a href="/lesson-12/directory.html">Directory</a></li>
+            <li><a href="/lesson-12/join.html" class="selected">Join</a></li>
+            <li><a href="/lesson-12/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <form method="get" action="reservation-confirmation.html">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label class="top">First Name: <input type="text" name="fname" pattern="[A-Za-z ]+" required></label>
+            <label class="top">Last Name: <input type="text" name="fname" pattern="[A-Za-z ]+" required></label>
+            <label class="top">Title: <input type="text" name="title" placeholder=" "></label>
+            <label class="top">Email: <input type="email" name="email" placeholder="myemail@email.com" required></label>
+            <label class="top">Cellphone: <input type="tel" name="phone" placeholder="(000) 000-0000"></label>
+            <label class="top">Business Name: <input type="text" name="bname" placeholder=" " required></label>
+            <label class="top">Business Address: <input type="text" name="baddress" placeholder=" "></label>
+            <label class="top">Business Website: <input type="text" name="bwebsite" placeholder=" "></label>
+            <label class="top">Business Description:<textarea
+                    placeholder="Inclue info about what you do and what you need help with"></textarea></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Membership Levels</legend>
+            <div class="membership">
+                <div>
+                    <p>Non-Profit</p>
+                    <h3>Bronze Level</h3>
+                    <h2>$100</h2>
+                    <ul>
+                        <li>directory listings</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Non-Profit</p>
+                    <h3>Silver Level</h3>
+                    <h2>$200</h2>
+                    <ul>
+                        <li>directory listings</li>
+                        <li>Business Trainings</li>
+                        <li>Social Media Posts</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Non-Profit</p>
+                    <h3>Gold Level</h3>
+                    <h2>$400</h2>
+                    <ul>
+                        <li>directory listings</li>
+                        <li>Business Trainings</li>
+                        <li>Luncheon Tickets</li>
+                        <li>Sponsorships</li>
+                        <li>Other levels of advertising</li>
+                    </ul>
+                </div>
+            </div>
+        </fieldset>
+        <input type="submit" value="JOIN NOW!" class="submitBtn">
+    </form>
+
+
+    <footer>
+        <div class="footer-info">
+            <div class="contact">
+                <h4>Contact Us</h4>
+                <p>Riverton@myemail.com</p>
+                <p>567 Riverton Ave. Riverton, Utah 84043</p>
+                <p>801-900-8989</p>
+            </div>
+            <div class="about">
+                <h4>About Us</h4>
+                <p>Company</p>
+                <p>Community</p>
+                <p>Careers</p>
+            </div>
+            <div class="products">
+                <h4>Membership</h4>
+                <p>Businesses</p>
+                <p>Join</p>
+                <p>About</p>
+                <div class="last-updated">
+                    <p>Last updated:</p>
+                    <p id="currentDate"></p>
+                </div>
+            </div>
+        </div>
+        <script src="/lesson-12/js/script.js"></script>
+    </footer>
+</body>
+
+</html>

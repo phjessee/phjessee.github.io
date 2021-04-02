@@ -1,0 +1,103 @@
+@media only screen and (min-width: 960px) {
+
+    /*----------- MAIN -----------*/
+
+
+    /*----------- NAVIGATION -----------*/
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        padding: 1rem 2rem;
+    }
+
+    .logo {
+        float: left;
+        height: 37px;
+        margin-left: 3rem;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+    }
+
+
+
+
+
+    /*----------- HERO IMAGE -----------*/
+    .headline h1 {
+        font-size: 48px;
+    }
+
+    .headline h4 {
+        font-size: 34px;
+    }
+
+    .ctaBtn {
+        left: 46%;
+        margin: 0 2rem 0 0;
+    }
+
+    /*----------- NAVIGATION -----------*/
+
+
+
+
+    /*----------- SOCIAL MEDIA -----------*/
+    .social-media {
+        padding: 1rem 15rem;
+    }
+
+    #fb-icon,
+    #inst-icon,
+    #twit-icon {
+        height: 50px;
+    }
+
+
+
+
+    /*----------- summaries -----------*/
+    .summaries {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 12px;
+    }
+
+
+
+    /*----------- City -----------*/
+    .city-info {
+        max-width: 1040px;
+        margin: auto;
+    }
+
+
+
+    /*----------- Contact -----------*/
+    form legend {
+        font-size: 20px;
+    }
+
+    .contact-form {
+        max-width: 1090px;
+        margin: auto;
+    }
+
+    .contact-map {
+        display: block;
+        text-align: left;
+        max-width: 100%;
+        margin: auto;
+        margin-left: 5.5rem;
+        padding-bottom: 2rem;
+    }
+
+}
+
+
+
+/*----------- Footer -----------*/
