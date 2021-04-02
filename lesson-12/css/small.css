@@ -479,9 +479,26 @@ form ul {
 }
 
 
+.businesses {
+    max-width: 960px;
+    margin: auto;
+    padding: 1rem 0 4rem 0;
+    
+}
 
+.businesses section {
+    background-color: #fff;
+    height: 100%;
+    padding: 0 1rem;
+}
 
+.businesses h2 {
+    padding-top: 1rem
+} 
 
+.businesses img {
+    padding-bottom: 1rem;
+}
 
 
 /*------ slider -----*/

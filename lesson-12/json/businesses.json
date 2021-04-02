@@ -4,43 +4,43 @@
       "name": "Aubergine",
       "phonenum": "(801) 890-1038",
       "address": "4554 W Partridge Hill Ln Suite D-100, Riverton, UT 84096",
-      "imageurl": "https://aubergineandcompany.com"
+      "imageurl": "/lesson-12/images/aubergine.png"
     },
     {
       "name": "Saffron Circle",
       "phonenum": "(801) 206-4115",
       "address": "4594 W Partridge Hill Ln #140, Riverton, UT 84096",
-      "imageurl": "https://www.saffronvalley.com/saffron-circle-indian-restaurant-utah-riverton"
+      "imageurl": "/lesson-12/images/saffron.png"
     },
     {
       "name": "Arbor Day Nursery",
       "phonenum": "(801) 446-8457",
       "address": "2767 W 12600 S, Riverton, UT 84065",
-      "imageurl": "https://arbordaynursery.net/"
+      "imageurl": "/lesson-12/images/arbor-day.png"
     },
     {
       "name": "K9 Design Pet Grooming",
       "phonenum": "(801) 446-7996",
       "address": "12652 S 2700 W, Riverton, UT 84065",
-      "imageurl": "http://www.k9designpetgrooming.com/"
+      "imageurl": "/lesson-12/images/k9.png"
     },
     {
       "name": "Taylors Bike Shop",
       "phonenum": "(801) 254-3501",
       "address": "1926 W 12600 S, Riverton, UT 84065",
-      "imageurl": "https://www.taylorsbikeshop.com/"
+      "imageurl": " "
     },
     {
       "name": "IFA",
       "phonenum": "(801) 890-1038",
       "address": "1926 W 12600 S, Riverton, UT 84065",
-      "imageurl": "https://ifacountrystores.com/"
+      "imageurl": "/lesson-12/images/ifa.png"
     },
     {
       "name": "Petersons Fresh Market",
       "phonenum": "(801) 254-0716",
       "address": "1784 W 12600 S, Riverton, UT 84065",
-      "imageurl": "https://petersonsfreshmarket.com/"
+      "imageurl": "/lesson-12/images/petersons.png"
     }
   ]
 }
