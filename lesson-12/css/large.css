@@ -37,7 +37,8 @@
     }
 
     .ctaBtn {
-        left: 46%;
+        left:45%;
+        margin-bottom: .5rem;
         margin: 0 2rem 0 0;
     }
 
@@ -55,6 +56,27 @@
     #inst-icon,
     #twit-icon {
         height: 50px;
+    }
+
+
+
+
+
+
+    .upcoming-events div {
+        background-color: #fff;
+        padding: 1rem 3rem;
+        border-radius: 6px;
+    }
+
+
+    .events div {
+        padding: 0rem 2rem;
+        margin: 0 .25rem;
+    }
+
+    .events div h3 {
+        margin-top: 1rem;
     }
 
 

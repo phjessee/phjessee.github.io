@@ -52,8 +52,7 @@
     }
 
     .ctaBtn {
-        top: 80%;
-        left: 36%;
+        left: 40%;
         padding: 1rem 2rem;
     }
 
@@ -68,6 +67,23 @@
         height: 40px;
     }
 
+
+
+
+
+    .events div h3 {
+        font-size: inherit;
+        color: #008BC9;
+        margin-top: 1rem;
+    }
+   
+
+
+
+
+
+
+
     .summaries-container {
         max-width: 1280px;
         margin: auto;
@@ -80,6 +96,22 @@
         grid-gap: 12px;
         
     }
+
+
+
+
+
+    .joinBtn {
+        margin: auto;
+        border: none;
+        background-color: #008BC9;
+        color: #fff;
+        border-radius: 6px;
+        padding: 1rem 2rem;
+        margin-bottom: 2rem;
+        font-family: 'Roboto';
+    }
+
 
 
 
@@ -103,6 +135,15 @@
         display: flex;
         flex-direction: column;
     }
+
+    .contact-map iframe{
+        max-width: 30rem;
+        margin-left: 2rem;
+    }
+
+
+
+
 
 
 
