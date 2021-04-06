@@ -648,9 +648,25 @@ form ul {
 }
 
 
+.directors {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .directors  h2:nth-child(6) {
     margin-top: 3rem;
 }
+
+.directors div {
+    padding-bottom: 0;
+}
+
+
+.directors div p {
+    margin-top: 0;
+}
+
+
 
 
 .tour-card {
