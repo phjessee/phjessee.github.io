@@ -8,7 +8,7 @@ function toggleMenu() {
 
 /*------ 3 day Forecast -------*/
 
-const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=40.5219&lon=-111.9391&units=imperial&appid=e592e2e06eeae47ff9c02cce63ec9adc';
+const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=40.5219&lon=-111.9391&units=imperial&appid=3122045cc1163ad37e5c9a13ba836046';
 fetch(forecastURL)
   .then((response) => response.json())
   .then((forecastObject) => {
@@ -36,7 +36,7 @@ fetch(forecastURL)
 
 /*------ Current Weather -------*/
 
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=40.5219&lon=-111.9391&appid=e592e2e06eeae47ff9c02cce63ec9adc&units=imperial';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=40.5219&lon=-111.9391&appid=3122045cc1163ad37e5c9a13ba836046&units=imperial';
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
